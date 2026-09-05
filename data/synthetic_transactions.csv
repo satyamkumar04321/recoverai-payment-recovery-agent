@@ -1,0 +1,1001 @@
+transaction_id,customer_id,customer_name,amount,payment_method,failure_reason,previous_transactions,previous_successful_payments,previous_failed_payments,customer_success_rate,retry_count,is_recovered,status,created_at
+TXN-10001,CUST-1061,Alex Mercer (CUST-1061),1682.38,Digital Wallet,Insufficient Funds,95,72,23,0.758,2,1,Pending,2026-08-24 11:56:09
+TXN-10002,CUST-1134,Sarah Jenkins (CUST-1134),267.34,Debit Card,Network Timeout,15,9,6,0.6,1,1,Pending,2026-08-15 23:41:22
+TXN-10003,CUST-1081,Nexus Retail (CUST-1081),617.7,Digital Wallet,Insufficient Funds,8,6,2,0.75,0,0,Unrecoverable,2026-08-14 22:38:10
+TXN-10004,CUST-1090,Priya Sharma (CUST-1090),133.92,ACH Direct Debit,Bank Decline,24,15,9,0.625,3,0,Unrecoverable,2026-08-22 20:31:44
+TXN-10005,CUST-1142,Fatima Al-Mansoor (CUST-1142),55.42,UPI,Insufficient Funds,45,30,15,0.667,0,0,Failed,2026-08-15 03:46:57
+TXN-10006,CUST-1054,Pulse Health (CUST-1054),241.62,Digital Wallet,Authentication Failed,41,36,5,0.878,1,0,Failed,2026-08-09 18:08:48
+TXN-10007,CUST-1109,Alex Mercer (CUST-1109),126.96,UPI,Expired Card,35,28,7,0.8,3,0,Unrecoverable,2026-08-19 19:37:35
+TXN-10008,CUST-1003,Starlight Media (CUST-1003),30.1,Digital Wallet,Insufficient Funds,36,23,13,0.639,1,0,Failed,2026-08-19 21:08:17
+TXN-10009,CUST-1011,CloudScale Networks (CUST-1011),56.61,UPI,Expired Card,61,41,20,0.672,3,0,Failed,2026-08-17 14:20:25
+TXN-10010,CUST-1144,Yuki Tanaka (CUST-1144),134.36,Debit Card,Expired Card,77,47,30,0.61,0,0,Failed,2026-08-12 08:49:53
+TXN-10011,CUST-1086,Sarah Jenkins (CUST-1086),1872.82,Debit Card,Network Timeout,120,97,23,0.808,0,1,Recovered,2026-08-18 11:07:18
+TXN-10012,CUST-1010,Zenith Financial (CUST-1010),250.1,UPI,Network Timeout,91,78,13,0.857,0,1,Pending,2026-08-12 18:44:42
+TXN-10013,CUST-1085,Alex Mercer (CUST-1085),181.24,Digital Wallet,Authentication Failed,38,23,15,0.605,3,0,Unrecoverable,2026-08-16 22:07:11
+TXN-10014,CUST-1008,Quantum Labs (CUST-1008),586.68,Credit Card,Insufficient Funds,72,59,13,0.819,2,0,Unrecoverable,2026-08-30 13:55:12
+TXN-10015,CUST-1112,Elena Rostova (CUST-1112),1331.87,Debit Card,Network Timeout,39,35,4,0.897,0,1,Recovered,2026-08-22 14:02:04
+TXN-10016,CUST-1138,Priya Sharma (CUST-1138),107.73,UPI,Authentication Failed,62,53,9,0.855,0,0,Failed,2026-08-25 16:21:49
+TXN-10017,CUST-1032,Quantum Labs (CUST-1032),285.15,UPI,Authentication Failed,66,55,11,0.833,3,1,Recovered,2026-08-12 17:49:00
+TXN-10018,CUST-1098,Nova Software (CUST-1098),556.26,ACH Direct Debit,Bank Decline,91,67,24,0.736,0,0,Failed,2026-08-19 21:12:40
+TXN-10019,CUST-1149,Vanguard Systems (CUST-1149),1439.39,Debit Card,Bank Decline,18,16,2,0.889,1,0,Unrecoverable,2026-08-12 01:52:10
+TXN-10020,CUST-1022,Fatima Al-Mansoor (CUST-1022),53.31,Debit Card,Network Timeout,76,49,27,0.645,0,1,Recovered,2026-08-07 17:16:41
+TXN-10021,CUST-1063,Rajesh Kumar (CUST-1063),425.07,ACH Direct Debit,Bank Decline,84,82,2,0.976,0,0,Failed,2026-08-21 19:38:36
+TXN-10022,CUST-1063,Rajesh Kumar (CUST-1063),34.92,ACH Direct Debit,Expired Card,84,82,2,0.976,0,0,Unrecoverable,2026-08-22 12:37:17
+TXN-10023,CUST-1013,Alex Mercer (CUST-1013),90.25,ACH Direct Debit,Bank Decline,119,71,48,0.597,2,0,Failed,2026-08-25 08:48:05
+TXN-10024,CUST-1130,Zenith Financial (CUST-1130),72.61,ACH Direct Debit,Authentication Failed,19,18,1,0.947,1,0,Unrecoverable,2026-08-15 07:21:21
+TXN-10025,CUST-1134,Sarah Jenkins (CUST-1134),1435.76,UPI,Expired Card,15,9,6,0.6,1,1,Pending,2026-08-09 09:42:27
+TXN-10026,CUST-1039,Rajesh Kumar (CUST-1039),46.22,ACH Direct Debit,Authentication Failed,28,21,7,0.75,1,1,Recovered,2026-08-08 20:31:23
+TXN-10027,CUST-1108,Aura Designs (CUST-1108),67.58,Digital Wallet,Authentication Failed,43,36,7,0.837,1,1,Recovered,2026-08-15 22:41:34
+TXN-10028,CUST-1100,Horizon Tech (CUST-1100),1396.14,Digital Wallet,Bank Decline,39,26,13,0.667,0,0,Failed,2026-08-20 01:29:37
+TXN-10029,CUST-1008,Quantum Labs (CUST-1008),2116.47,Debit Card,Authentication Failed,72,59,13,0.819,0,0,Unrecoverable,2026-08-07 19:06:27
+TXN-10030,CUST-1101,Vanguard Systems (CUST-1101),448.35,Debit Card,Authentication Failed,51,31,20,0.608,0,1,Recovered,2026-08-16 19:23:08
+TXN-10031,CUST-1117,Carlos Mendez (CUST-1117),492.55,UPI,Insufficient Funds,101,62,39,0.614,1,1,Pending,2026-08-08 13:11:36
+TXN-10032,CUST-1090,Priya Sharma (CUST-1090),45.27,Credit Card,Expired Card,24,15,9,0.625,0,0,Unrecoverable,2026-08-11 13:24:25
+TXN-10033,CUST-1033,Nexus Retail (CUST-1033),201.48,UPI,Network Timeout,54,35,19,0.648,0,1,Pending,2026-08-28 12:54:32
+TXN-10034,CUST-1042,Priya Sharma (CUST-1042),198.64,Digital Wallet,Authentication Failed,36,30,6,0.833,1,0,Failed,2026-08-09 06:24:33
+TXN-10035,CUST-1063,Rajesh Kumar (CUST-1063),2215.56,Credit Card,Bank Decline,84,82,2,0.976,0,0,Failed,2026-08-26 19:59:13
+TXN-10036,CUST-1018,Priya Sharma (CUST-1018),303.55,Credit Card,Authentication Failed,19,14,5,0.737,1,0,Failed,2026-08-28 04:57:14
+TXN-10037,CUST-1112,Elena Rostova (CUST-1112),1835.87,Digital Wallet,Authentication Failed,39,35,4,0.897,1,1,Pending,2026-08-24 18:16:24
+TXN-10038,CUST-1083,CloudScale Networks (CUST-1083),523.83,Debit Card,Authentication Failed,54,50,4,0.926,2,0,Failed,2026-08-17 01:53:50
+TXN-10039,CUST-1127,ECHO Commerce (CUST-1127),231.83,UPI,Network Timeout,118,109,9,0.924,2,0,Failed,2026-08-23 15:51:40
+TXN-10040,CUST-1133,Alex Mercer (CUST-1133),188.53,Digital Wallet,Expired Card,35,32,3,0.914,3,0,Unrecoverable,2026-08-21 17:04:59
+TXN-10041,CUST-1005,Vanguard Systems (CUST-1005),249.72,Digital Wallet,Network Timeout,77,48,29,0.623,1,1,Recovered,2026-08-19 18:03:16
+TXN-10042,CUST-1141,Carlos Mendez (CUST-1141),466.28,Debit Card,Insufficient Funds,70,46,24,0.657,3,0,Failed,2026-08-29 06:33:58
+TXN-10043,CUST-1048,Yuki Tanaka (CUST-1048),1125.35,Digital Wallet,Bank Decline,80,74,6,0.925,1,0,Failed,2026-08-15 20:59:21
+TXN-10044,CUST-1093,Carlos Mendez (CUST-1093),156.37,Credit Card,Insufficient Funds,119,98,21,0.824,2,0,Failed,2026-08-26 02:57:28
+TXN-10045,CUST-1126,Pulse Health (CUST-1126),155.52,ACH Direct Debit,Network Timeout,17,13,4,0.765,0,0,Failed,2026-09-04 05:15:27
+TXN-10046,CUST-1123,Starlight Media (CUST-1123),1534.32,Credit Card,Expired Card,65,42,23,0.646,0,0,Failed,2026-08-09 13:01:19
+TXN-10047,CUST-1064,Elena Rostova (CUST-1064),1752.0,Debit Card,Bank Decline,75,52,23,0.693,1,0,Failed,2026-08-15 21:47:09
+TXN-10048,CUST-1110,Sarah Jenkins (CUST-1110),1758.3,Credit Card,Expired Card,100,95,5,0.95,3,1,Pending,2026-08-09 10:08:48
+TXN-10049,CUST-1062,Sarah Jenkins (CUST-1062),183.78,Digital Wallet,Authentication Failed,16,11,5,0.688,1,1,Recovered,2026-08-28 04:42:00
+TXN-10050,CUST-1117,Carlos Mendez (CUST-1117),1102.65,Digital Wallet,Expired Card,101,62,39,0.614,1,1,Recovered,2026-08-26 09:59:19
+TXN-10051,CUST-1069,Carlos Mendez (CUST-1069),182.13,Digital Wallet,Bank Decline,106,89,17,0.84,1,0,Failed,2026-08-27 15:32:23
+TXN-10052,CUST-1104,Quantum Labs (CUST-1104),142.26,Digital Wallet,Insufficient Funds,98,82,16,0.837,1,0,Unrecoverable,2026-08-14 11:57:24
+TXN-10053,CUST-1024,Yuki Tanaka (CUST-1024),2234.98,Credit Card,Network Timeout,45,41,4,0.911,2,1,Recovered,2026-08-21 02:27:08
+TXN-10054,CUST-1114,Priya Sharma (CUST-1114),1712.13,ACH Direct Debit,Insufficient Funds,20,12,8,0.6,1,0,Failed,2026-08-16 14:51:13
+TXN-10055,CUST-1027,Starlight Media (CUST-1027),298.41,ACH Direct Debit,Bank Decline,98,61,37,0.622,0,0,Failed,2026-08-14 13:25:08
+TXN-10056,CUST-1030,Pulse Health (CUST-1030),145.97,Digital Wallet,Authentication Failed,117,80,37,0.684,1,1,Pending,2026-08-17 20:10:22
+TXN-10057,CUST-1128,Quantum Labs (CUST-1128),986.76,Debit Card,Network Timeout,20,12,8,0.6,1,0,Failed,2026-08-10 15:07:06
+TXN-10058,CUST-1062,Sarah Jenkins (CUST-1062),289.84,Credit Card,Expired Card,16,11,5,0.688,0,1,Recovered,2026-08-26 10:02:34
+TXN-10059,CUST-1040,Elena Rostova (CUST-1040),472.47,ACH Direct Debit,Authentication Failed,42,40,2,0.952,1,1,Pending,2026-08-11 07:50:02
+TXN-10060,CUST-1049,Apex Logistics (CUST-1049),139.45,UPI,Authentication Failed,48,32,16,0.667,1,0,Unrecoverable,2026-08-15 00:03:22
+TXN-10061,CUST-1001,Apex Logistics (CUST-1001),1715.18,ACH Direct Debit,Expired Card,89,57,32,0.64,1,0,Failed,2026-08-16 23:02:54
+TXN-10062,CUST-1140,Sophia Taylor (CUST-1140),2252.24,Debit Card,Bank Decline,79,67,12,0.848,1,0,Failed,2026-08-08 07:07:04
+TXN-10063,CUST-1122,Nova Software (CUST-1122),1333.55,Debit Card,Authentication Failed,32,21,11,0.656,0,1,Pending,2026-08-16 22:43:40
+TXN-10064,CUST-1026,Nova Software (CUST-1026),348.14,Credit Card,Expired Card,54,44,10,0.815,1,0,Failed,2026-08-09 05:34:05
+TXN-10065,CUST-1068,Sophia Taylor (CUST-1068),461.72,Digital Wallet,Authentication Failed,76,67,9,0.882,1,1,Recovered,2026-09-02 03:48:27
+TXN-10066,CUST-1010,Zenith Financial (CUST-1010),255.65,Debit Card,Insufficient Funds,91,78,13,0.857,1,0,Unrecoverable,2026-08-28 02:29:35
+TXN-10067,CUST-1026,Nova Software (CUST-1026),74.9,UPI,Insufficient Funds,54,44,10,0.815,1,0,Failed,2026-08-11 08:30:07
+TXN-10068,CUST-1136,Elena Rostova (CUST-1136),70.63,Credit Card,Bank Decline,41,39,2,0.951,1,0,Failed,2026-08-21 22:00:44
+TXN-10069,CUST-1150,Pulse Health (CUST-1150),357.52,Credit Card,Authentication Failed,16,13,3,0.812,1,0,Failed,2026-08-09 04:52:20
+TXN-10070,CUST-1089,Marcus Chen (CUST-1089),2427.86,UPI,Authentication Failed,105,84,21,0.8,1,1,Recovered,2026-09-01 14:05:36
+TXN-10071,CUST-1028,Horizon Tech (CUST-1028),1692.14,UPI,Insufficient Funds,92,63,29,0.685,3,0,Failed,2026-08-23 23:09:38
+TXN-10072,CUST-1013,Alex Mercer (CUST-1013),485.33,Debit Card,Bank Decline,119,71,48,0.597,1,0,Failed,2026-08-25 14:44:00
+TXN-10073,CUST-1036,Aura Designs (CUST-1036),556.53,ACH Direct Debit,Insufficient Funds,95,80,15,0.842,2,0,Failed,2026-08-09 16:35:16
+TXN-10074,CUST-1076,Horizon Tech (CUST-1076),981.51,UPI,Bank Decline,46,42,4,0.913,2,0,Failed,2026-08-14 16:42:37
+TXN-10075,CUST-1124,Horizon Tech (CUST-1124),145.6,ACH Direct Debit,Insufficient Funds,31,21,10,0.677,0,0,Failed,2026-09-01 18:59:34
+TXN-10076,CUST-1102,Pulse Health (CUST-1102),512.06,Credit Card,Network Timeout,78,53,25,0.679,2,1,Recovered,2026-08-27 04:07:41
+TXN-10077,CUST-1068,Sophia Taylor (CUST-1068),93.92,Debit Card,Authentication Failed,76,67,9,0.882,0,1,Pending,2026-08-16 19:51:22
+TXN-10078,CUST-1057,Nexus Retail (CUST-1057),1482.11,UPI,Authentication Failed,25,19,6,0.76,0,1,Recovered,2026-08-16 02:50:03
+TXN-10079,CUST-1127,ECHO Commerce (CUST-1127),255.66,ACH Direct Debit,Network Timeout,118,109,9,0.924,3,0,Unrecoverable,2026-09-04 08:47:35
+TXN-10080,CUST-1108,Aura Designs (CUST-1108),2282.29,Credit Card,Authentication Failed,43,36,7,0.837,2,1,Recovered,2026-08-07 23:14:51
+TXN-10081,CUST-1095,Liam O'Connor (CUST-1095),350.11,Credit Card,Network Timeout,104,91,13,0.875,2,0,Unrecoverable,2026-08-17 17:56:13
+TXN-10082,CUST-1102,Pulse Health (CUST-1102),585.69,Credit Card,Expired Card,78,53,25,0.679,3,0,Failed,2026-08-08 12:06:30
+TXN-10083,CUST-1086,Sarah Jenkins (CUST-1086),47.88,Digital Wallet,Expired Card,120,97,23,0.808,2,1,Recovered,2026-08-16 20:15:16
+TXN-10084,CUST-1038,Sarah Jenkins (CUST-1038),121.47,Debit Card,Bank Decline,76,66,10,0.868,1,0,Failed,2026-08-26 19:39:11
+TXN-10085,CUST-1007,ECHO Commerce (CUST-1007),2098.02,UPI,Insufficient Funds,19,12,7,0.632,0,1,Recovered,2026-08-29 05:43:43
+TXN-10086,CUST-1135,Rajesh Kumar (CUST-1135),178.6,Digital Wallet,Bank Decline,8,7,1,0.875,0,0,Failed,2026-09-04 08:23:27
+TXN-10087,CUST-1012,Aura Designs (CUST-1012),558.94,ACH Direct Debit,Insufficient Funds,83,58,25,0.699,0,0,Failed,2026-08-19 18:36:31
+TXN-10088,CUST-1028,Horizon Tech (CUST-1028),81.19,UPI,Bank Decline,92,63,29,0.685,0,1,Recovered,2026-08-25 17:12:01
+TXN-10089,CUST-1150,Pulse Health (CUST-1150),2489.79,UPI,Authentication Failed,16,13,3,0.812,2,0,Failed,2026-08-30 18:43:15
+TXN-10090,CUST-1030,Pulse Health (CUST-1030),2061.03,Debit Card,Authentication Failed,117,80,37,0.684,1,0,Failed,2026-08-17 03:43:21
+TXN-10091,CUST-1117,Carlos Mendez (CUST-1117),478.33,UPI,Network Timeout,101,62,39,0.614,0,1,Recovered,2026-08-09 00:01:40
+TXN-10092,CUST-1022,Fatima Al-Mansoor (CUST-1022),27.59,Digital Wallet,Insufficient Funds,76,49,27,0.645,2,0,Unrecoverable,2026-08-16 21:02:12
+TXN-10093,CUST-1032,Quantum Labs (CUST-1032),543.12,Credit Card,Network Timeout,66,55,11,0.833,2,1,Recovered,2026-08-24 07:47:35
+TXN-10094,CUST-1055,ECHO Commerce (CUST-1055),366.99,Digital Wallet,Network Timeout,62,58,4,0.935,0,1,Pending,2026-08-13 18:31:34
+TXN-10095,CUST-1110,Sarah Jenkins (CUST-1110),2155.01,Digital Wallet,Insufficient Funds,100,95,5,0.95,2,0,Unrecoverable,2026-08-15 00:15:15
+TXN-10096,CUST-1047,Liam O'Connor (CUST-1047),493.08,Credit Card,Expired Card,35,33,2,0.943,0,1,Recovered,2026-08-09 01:47:35
+TXN-10097,CUST-1008,Quantum Labs (CUST-1008),388.72,UPI,Expired Card,72,59,13,0.819,1,1,Recovered,2026-08-30 07:00:48
+TXN-10098,CUST-1146,Nova Software (CUST-1146),895.6,Credit Card,Insufficient Funds,82,64,18,0.78,1,0,Failed,2026-08-21 13:22:05
+TXN-10099,CUST-1114,Priya Sharma (CUST-1114),247.01,ACH Direct Debit,Insufficient Funds,20,12,8,0.6,1,0,Unrecoverable,2026-08-21 14:04:02
+TXN-10100,CUST-1079,ECHO Commerce (CUST-1079),21.13,Debit Card,Network Timeout,28,22,6,0.786,0,1,Recovered,2026-08-15 16:05:37
+TXN-10101,CUST-1031,ECHO Commerce (CUST-1031),486.16,Digital Wallet,Expired Card,20,14,6,0.7,2,0,Unrecoverable,2026-08-31 04:09:21
+TXN-10102,CUST-1019,David Miller (CUST-1019),483.92,Credit Card,Network Timeout,53,48,5,0.906,2,1,Recovered,2026-08-28 06:31:51
+TXN-10103,CUST-1107,CloudScale Networks (CUST-1107),54.08,Digital Wallet,Authentication Failed,17,13,4,0.765,3,0,Failed,2026-08-20 02:07:27
+TXN-10104,CUST-1028,Horizon Tech (CUST-1028),414.99,UPI,Network Timeout,92,63,29,0.685,0,1,Recovered,2026-08-09 06:41:05
+TXN-10105,CUST-1030,Pulse Health (CUST-1030),237.26,Debit Card,Expired Card,117,80,37,0.684,0,1,Recovered,2026-08-12 04:36:40
+TXN-10106,CUST-1040,Elena Rostova (CUST-1040),936.58,ACH Direct Debit,Authentication Failed,42,40,2,0.952,2,0,Failed,2026-08-27 10:06:28
+TXN-10107,CUST-1145,Apex Logistics (CUST-1145),1214.1,UPI,Expired Card,48,29,19,0.604,1,1,Recovered,2026-08-25 22:17:20
+TXN-10108,CUST-1071,Liam O'Connor (CUST-1071),308.37,ACH Direct Debit,Insufficient Funds,28,21,7,0.75,0,1,Recovered,2026-08-09 06:56:17
+TXN-10109,CUST-1024,Yuki Tanaka (CUST-1024),1479.15,Credit Card,Authentication Failed,45,41,4,0.911,2,0,Failed,2026-08-25 03:17:45
+TXN-10110,CUST-1129,Nexus Retail (CUST-1129),177.84,Credit Card,Bank Decline,77,70,7,0.909,3,0,Failed,2026-08-28 05:10:46
+TXN-10111,CUST-1113,Marcus Chen (CUST-1113),424.41,ACH Direct Debit,Authentication Failed,111,83,28,0.748,1,0,Failed,2026-08-30 15:56:06
+TXN-10112,CUST-1086,Sarah Jenkins (CUST-1086),192.53,UPI,Bank Decline,120,97,23,0.808,0,0,Unrecoverable,2026-08-26 21:29:33
+TXN-10113,CUST-1090,Priya Sharma (CUST-1090),56.88,Digital Wallet,Insufficient Funds,24,15,9,0.625,1,0,Unrecoverable,2026-08-30 17:41:18
+TXN-10114,CUST-1033,Nexus Retail (CUST-1033),2003.67,Digital Wallet,Insufficient Funds,54,35,19,0.648,3,0,Unrecoverable,2026-08-17 20:12:28
+TXN-10115,CUST-1093,Carlos Mendez (CUST-1093),578.03,Debit Card,Expired Card,119,98,21,0.824,0,1,Recovered,2026-09-01 07:40:48
+TXN-10116,CUST-1026,Nova Software (CUST-1026),2003.42,Credit Card,Network Timeout,54,44,10,0.815,2,1,Recovered,2026-08-11 14:45:13
+TXN-10117,CUST-1047,Liam O'Connor (CUST-1047),127.23,ACH Direct Debit,Insufficient Funds,35,33,2,0.943,1,0,Unrecoverable,2026-08-14 02:42:48
+TXN-10118,CUST-1114,Priya Sharma (CUST-1114),97.43,Digital Wallet,Expired Card,20,12,8,0.6,1,0,Failed,2026-09-03 02:33:12
+TXN-10119,CUST-1050,Nova Software (CUST-1050),576.21,UPI,Authentication Failed,71,53,18,0.746,2,0,Failed,2026-08-31 11:51:12
+TXN-10120,CUST-1036,Aura Designs (CUST-1036),173.48,Digital Wallet,Insufficient Funds,95,80,15,0.842,3,0,Failed,2026-08-15 12:56:13
+TXN-10121,CUST-1042,Priya Sharma (CUST-1042),557.39,Credit Card,Expired Card,36,30,6,0.833,1,0,Failed,2026-08-19 10:25:03
+TXN-10122,CUST-1102,Pulse Health (CUST-1102),256.1,Debit Card,Insufficient Funds,78,53,25,0.679,1,0,Unrecoverable,2026-08-26 11:39:48
+TXN-10123,CUST-1038,Sarah Jenkins (CUST-1038),2176.55,Debit Card,Authentication Failed,76,66,10,0.868,1,0,Failed,2026-08-07 13:22:28
+TXN-10124,CUST-1056,Quantum Labs (CUST-1056),1981.75,ACH Direct Debit,Insufficient Funds,59,43,16,0.729,1,0,Failed,2026-08-08 10:04:17
+TXN-10125,CUST-1108,Aura Designs (CUST-1108),430.26,Digital Wallet,Bank Decline,43,36,7,0.837,0,0,Unrecoverable,2026-08-14 05:53:14
+TXN-10126,CUST-1037,Alex Mercer (CUST-1037),1270.35,ACH Direct Debit,Expired Card,85,71,14,0.835,3,0,Unrecoverable,2026-09-05 05:26:35
+TXN-10127,CUST-1018,Priya Sharma (CUST-1018),2094.18,Digital Wallet,Insufficient Funds,19,14,5,0.737,1,0,Failed,2026-08-26 01:22:29
+TXN-10128,CUST-1096,Yuki Tanaka (CUST-1096),157.31,Debit Card,Insufficient Funds,33,28,5,0.848,2,0,Failed,2026-08-10 23:44:48
+TXN-10129,CUST-1091,David Miller (CUST-1091),932.67,ACH Direct Debit,Authentication Failed,68,65,3,0.956,3,1,Recovered,2026-08-08 21:07:27
+TXN-10130,CUST-1118,Fatima Al-Mansoor (CUST-1118),19.99,UPI,Network Timeout,91,88,3,0.967,2,1,Pending,2026-08-21 04:32:22
+TXN-10131,CUST-1010,Zenith Financial (CUST-1010),116.69,UPI,Network Timeout,91,78,13,0.857,0,1,Recovered,2026-09-02 16:07:19
+TXN-10132,CUST-1113,Marcus Chen (CUST-1113),323.99,ACH Direct Debit,Network Timeout,111,83,28,0.748,2,1,Recovered,2026-08-28 19:11:25
+TXN-10133,CUST-1021,Carlos Mendez (CUST-1021),597.79,UPI,Insufficient Funds,13,11,2,0.846,0,1,Recovered,2026-08-16 04:22:07
+TXN-10134,CUST-1110,Sarah Jenkins (CUST-1110),1449.55,UPI,Bank Decline,100,95,5,0.95,1,0,Failed,2026-08-09 05:43:17
+TXN-10135,CUST-1104,Quantum Labs (CUST-1104),64.05,Debit Card,Bank Decline,98,82,16,0.837,3,0,Failed,2026-08-10 18:34:38
+TXN-10136,CUST-1061,Alex Mercer (CUST-1061),1327.42,Credit Card,Bank Decline,95,72,23,0.758,0,0,Failed,2026-08-18 03:32:29
+TXN-10137,CUST-1020,Sophia Taylor (CUST-1020),1356.26,UPI,Expired Card,85,59,26,0.694,0,1,Recovered,2026-08-21 23:00:12
+TXN-10138,CUST-1100,Horizon Tech (CUST-1100),2072.43,ACH Direct Debit,Expired Card,39,26,13,0.667,2,0,Failed,2026-08-12 23:49:12
+TXN-10139,CUST-1035,CloudScale Networks (CUST-1035),353.42,Credit Card,Network Timeout,42,36,6,0.857,3,1,Recovered,2026-08-23 11:41:23
+TXN-10140,CUST-1075,Starlight Media (CUST-1075),1952.44,Debit Card,Network Timeout,21,19,2,0.905,2,1,Recovered,2026-08-30 17:58:44
+TXN-10141,CUST-1061,Alex Mercer (CUST-1061),161.83,ACH Direct Debit,Bank Decline,95,72,23,0.758,0,0,Failed,2026-08-08 23:01:49
+TXN-10142,CUST-1102,Pulse Health (CUST-1102),473.49,Digital Wallet,Insufficient Funds,78,53,25,0.679,0,0,Unrecoverable,2026-08-09 05:05:26
+TXN-10143,CUST-1120,Yuki Tanaka (CUST-1120),2268.12,Digital Wallet,Expired Card,101,73,28,0.723,0,1,Recovered,2026-08-31 22:17:35
+TXN-10144,CUST-1133,Alex Mercer (CUST-1133),1213.06,Debit Card,Network Timeout,35,32,3,0.914,2,0,Failed,2026-08-14 12:07:39
+TXN-10145,CUST-1142,Fatima Al-Mansoor (CUST-1142),52.05,Digital Wallet,Expired Card,45,30,15,0.667,2,0,Failed,2026-08-12 02:57:22
+TXN-10146,CUST-1087,Rajesh Kumar (CUST-1087),128.74,Credit Card,Insufficient Funds,18,11,7,0.611,3,0,Failed,2026-08-26 12:30:19
+TXN-10147,CUST-1147,Starlight Media (CUST-1147),1546.27,Digital Wallet,Network Timeout,117,93,24,0.795,3,0,Failed,2026-08-14 08:00:14
+TXN-10148,CUST-1104,Quantum Labs (CUST-1104),182.84,ACH Direct Debit,Authentication Failed,98,82,16,0.837,1,1,Pending,2026-08-11 07:07:59
+TXN-10149,CUST-1082,Zenith Financial (CUST-1082),114.12,UPI,Bank Decline,70,42,28,0.6,2,0,Failed,2026-08-20 23:33:07
+TXN-10150,CUST-1069,Carlos Mendez (CUST-1069),213.39,Digital Wallet,Authentication Failed,106,89,17,0.84,0,0,Failed,2026-08-31 09:23:45
+TXN-10151,CUST-1148,Horizon Tech (CUST-1148),902.75,ACH Direct Debit,Authentication Failed,15,14,1,0.933,1,1,Recovered,2026-09-04 08:15:33
+TXN-10152,CUST-1130,Zenith Financial (CUST-1130),76.73,Credit Card,Network Timeout,19,18,1,0.947,1,1,Pending,2026-08-27 03:54:23
+TXN-10153,CUST-1074,Nova Software (CUST-1074),531.23,UPI,Authentication Failed,105,70,35,0.667,1,1,Recovered,2026-08-24 02:17:40
+TXN-10154,CUST-1050,Nova Software (CUST-1050),279.87,Digital Wallet,Network Timeout,71,53,18,0.746,2,0,Failed,2026-08-10 20:19:46
+TXN-10155,CUST-1025,Apex Logistics (CUST-1025),507.7,Debit Card,Expired Card,87,81,6,0.931,2,0,Unrecoverable,2026-08-08 04:40:31
+TXN-10156,CUST-1010,Zenith Financial (CUST-1010),299.87,Debit Card,Bank Decline,91,78,13,0.857,2,0,Unrecoverable,2026-08-16 13:02:00
+TXN-10157,CUST-1101,Vanguard Systems (CUST-1101),482.69,Digital Wallet,Bank Decline,51,31,20,0.608,2,0,Unrecoverable,2026-08-15 23:32:27
+TXN-10158,CUST-1005,Vanguard Systems (CUST-1005),2461.81,UPI,Insufficient Funds,77,48,29,0.623,2,0,Unrecoverable,2026-08-30 11:22:57
+TXN-10159,CUST-1149,Vanguard Systems (CUST-1149),92.98,Digital Wallet,Bank Decline,18,16,2,0.889,1,0,Unrecoverable,2026-08-14 06:04:24
+TXN-10160,CUST-1147,Starlight Media (CUST-1147),199.45,ACH Direct Debit,Expired Card,117,93,24,0.795,1,0,Failed,2026-08-22 01:00:06
+TXN-10161,CUST-1121,Apex Logistics (CUST-1121),132.83,Digital Wallet,Expired Card,118,75,43,0.636,2,0,Unrecoverable,2026-08-21 08:07:08
+TXN-10162,CUST-1097,Apex Logistics (CUST-1097),227.93,Digital Wallet,Network Timeout,59,57,2,0.966,3,0,Unrecoverable,2026-08-27 09:49:43
+TXN-10163,CUST-1068,Sophia Taylor (CUST-1068),1068.39,UPI,Expired Card,76,67,9,0.882,1,0,Unrecoverable,2026-08-13 04:55:54
+TXN-10164,CUST-1126,Pulse Health (CUST-1126),2374.03,UPI,Network Timeout,17,13,4,0.765,0,1,Pending,2026-08-18 09:04:17
+TXN-10165,CUST-1102,Pulse Health (CUST-1102),579.57,Credit Card,Network Timeout,78,53,25,0.679,3,1,Recovered,2026-08-26 15:59:30
+TXN-10166,CUST-1123,Starlight Media (CUST-1123),1115.15,UPI,Expired Card,65,42,23,0.646,0,0,Unrecoverable,2026-08-14 03:58:29
+TXN-10167,CUST-1013,Alex Mercer (CUST-1013),105.43,Credit Card,Authentication Failed,119,71,48,0.597,1,0,Failed,2026-08-27 10:09:00
+TXN-10168,CUST-1036,Aura Designs (CUST-1036),397.66,ACH Direct Debit,Authentication Failed,95,80,15,0.842,3,1,Recovered,2026-08-16 14:55:57
+TXN-10169,CUST-1016,Elena Rostova (CUST-1016),1690.85,Credit Card,Expired Card,27,18,9,0.667,1,0,Failed,2026-09-04 00:06:57
+TXN-10170,CUST-1010,Zenith Financial (CUST-1010),1541.23,UPI,Insufficient Funds,91,78,13,0.857,0,1,Pending,2026-08-10 04:56:53
+TXN-10171,CUST-1086,Sarah Jenkins (CUST-1086),595.09,Debit Card,Bank Decline,120,97,23,0.808,1,0,Failed,2026-08-16 21:47:03
+TXN-10172,CUST-1118,Fatima Al-Mansoor (CUST-1118),473.37,UPI,Bank Decline,91,88,3,0.967,3,0,Failed,2026-08-25 07:34:44
+TXN-10173,CUST-1104,Quantum Labs (CUST-1104),764.8,Credit Card,Expired Card,98,82,16,0.837,0,1,Recovered,2026-08-07 04:36:34
+TXN-10174,CUST-1099,Starlight Media (CUST-1099),489.19,Digital Wallet,Bank Decline,74,57,17,0.77,0,0,Failed,2026-08-27 18:29:06
+TXN-10175,CUST-1016,Elena Rostova (CUST-1016),903.46,Digital Wallet,Network Timeout,27,18,9,0.667,3,1,Recovered,2026-08-18 00:19:24
+TXN-10176,CUST-1057,Nexus Retail (CUST-1057),891.05,Digital Wallet,Network Timeout,25,19,6,0.76,1,1,Recovered,2026-08-29 16:59:03
+TXN-10177,CUST-1056,Quantum Labs (CUST-1056),117.85,Digital Wallet,Authentication Failed,59,43,16,0.729,2,0,Failed,2026-09-03 12:06:28
+TXN-10178,CUST-1029,Vanguard Systems (CUST-1029),1560.43,Digital Wallet,Expired Card,45,43,2,0.956,0,1,Pending,2026-08-20 05:49:01
+TXN-10179,CUST-1053,Vanguard Systems (CUST-1053),369.97,Credit Card,Authentication Failed,103,83,20,0.806,0,1,Recovered,2026-08-23 21:42:28
+TXN-10180,CUST-1144,Yuki Tanaka (CUST-1144),513.11,UPI,Insufficient Funds,77,47,30,0.61,3,0,Failed,2026-08-08 08:18:01
+TXN-10181,CUST-1089,Marcus Chen (CUST-1089),109.55,ACH Direct Debit,Insufficient Funds,105,84,21,0.8,1,0,Failed,2026-08-29 23:05:15
+TXN-10182,CUST-1108,Aura Designs (CUST-1108),551.1,ACH Direct Debit,Insufficient Funds,43,36,7,0.837,3,0,Unrecoverable,2026-08-10 23:26:40
+TXN-10183,CUST-1090,Priya Sharma (CUST-1090),31.02,Debit Card,Insufficient Funds,24,15,9,0.625,0,0,Failed,2026-08-27 04:36:42
+TXN-10184,CUST-1140,Sophia Taylor (CUST-1140),320.67,UPI,Expired Card,79,67,12,0.848,1,1,Pending,2026-08-29 22:50:40
+TXN-10185,CUST-1009,Nexus Retail (CUST-1009),124.28,Debit Card,Expired Card,79,53,26,0.671,0,1,Recovered,2026-08-20 09:07:45
+TXN-10186,CUST-1013,Alex Mercer (CUST-1013),1434.03,Debit Card,Insufficient Funds,119,71,48,0.597,0,0,Failed,2026-08-14 00:17:17
+TXN-10187,CUST-1148,Horizon Tech (CUST-1148),419.06,Debit Card,Network Timeout,15,14,1,0.933,0,0,Unrecoverable,2026-08-13 14:50:33
+TXN-10188,CUST-1077,Vanguard Systems (CUST-1077),1724.17,Debit Card,Authentication Failed,72,59,13,0.819,2,0,Failed,2026-09-04 05:38:02
+TXN-10189,CUST-1098,Nova Software (CUST-1098),121.08,UPI,Authentication Failed,91,67,24,0.736,0,0,Failed,2026-08-14 05:11:20
+TXN-10190,CUST-1058,Zenith Financial (CUST-1058),55.6,Digital Wallet,Authentication Failed,19,16,3,0.842,1,1,Recovered,2026-08-18 15:21:12
+TXN-10191,CUST-1066,Priya Sharma (CUST-1066),441.02,Credit Card,Bank Decline,9,7,2,0.778,3,0,Failed,2026-08-15 00:59:03
+TXN-10192,CUST-1011,CloudScale Networks (CUST-1011),2047.22,Digital Wallet,Expired Card,61,41,20,0.672,1,1,Recovered,2026-08-16 01:59:13
+TXN-10193,CUST-1004,Horizon Tech (CUST-1004),2008.8,ACH Direct Debit,Expired Card,21,18,3,0.857,3,0,Failed,2026-08-18 21:16:00
+TXN-10194,CUST-1062,Sarah Jenkins (CUST-1062),1323.26,UPI,Network Timeout,16,11,5,0.688,1,1,Recovered,2026-08-20 23:12:53
+TXN-10195,CUST-1121,Apex Logistics (CUST-1121),294.1,ACH Direct Debit,Insufficient Funds,118,75,43,0.636,2,0,Unrecoverable,2026-08-11 08:45:22
+TXN-10196,CUST-1067,David Miller (CUST-1067),412.81,Debit Card,Expired Card,22,18,4,0.818,1,1,Pending,2026-08-31 23:42:46
+TXN-10197,CUST-1128,Quantum Labs (CUST-1128),574.56,ACH Direct Debit,Authentication Failed,20,12,8,0.6,0,0,Failed,2026-08-12 01:33:47
+TXN-10198,CUST-1140,Sophia Taylor (CUST-1140),1630.06,Credit Card,Bank Decline,79,67,12,0.848,0,0,Failed,2026-09-04 08:13:38
+TXN-10199,CUST-1013,Alex Mercer (CUST-1013),118.19,Credit Card,Expired Card,119,71,48,0.597,0,1,Recovered,2026-08-18 04:23:46
+TXN-10200,CUST-1124,Horizon Tech (CUST-1124),157.08,Credit Card,Insufficient Funds,31,21,10,0.677,2,0,Unrecoverable,2026-09-05 07:28:37
+TXN-10201,CUST-1005,Vanguard Systems (CUST-1005),82.8,Credit Card,Insufficient Funds,77,48,29,0.623,2,0,Failed,2026-08-25 13:56:02
+TXN-10202,CUST-1065,Marcus Chen (CUST-1065),270.3,ACH Direct Debit,Authentication Failed,78,72,6,0.923,2,1,Pending,2026-08-13 18:18:32
+TXN-10203,CUST-1021,Carlos Mendez (CUST-1021),103.25,ACH Direct Debit,Authentication Failed,13,11,2,0.846,1,1,Recovered,2026-08-26 02:09:01
+TXN-10204,CUST-1044,Sophia Taylor (CUST-1044),530.4,Digital Wallet,Insufficient Funds,15,10,5,0.667,2,0,Failed,2026-08-13 07:54:43
+TXN-10205,CUST-1146,Nova Software (CUST-1146),170.95,Digital Wallet,Bank Decline,82,64,18,0.78,3,1,Recovered,2026-08-07 10:57:56
+TXN-10206,CUST-1054,Pulse Health (CUST-1054),488.51,Credit Card,Network Timeout,41,36,5,0.878,0,1,Pending,2026-09-01 00:38:24
+TXN-10207,CUST-1100,Horizon Tech (CUST-1100),1329.31,Debit Card,Insufficient Funds,39,26,13,0.667,2,0,Failed,2026-08-08 14:21:11
+TXN-10208,CUST-1112,Elena Rostova (CUST-1112),1749.82,Digital Wallet,Authentication Failed,39,35,4,0.897,1,1,Recovered,2026-08-30 11:50:47
+TXN-10209,CUST-1116,Sophia Taylor (CUST-1116),310.12,Debit Card,Bank Decline,60,46,14,0.767,3,0,Unrecoverable,2026-08-15 20:21:54
+TXN-10210,CUST-1064,Elena Rostova (CUST-1064),893.02,Debit Card,Authentication Failed,75,52,23,0.693,1,1,Recovered,2026-08-07 03:25:56
+TXN-10211,CUST-1079,ECHO Commerce (CUST-1079),75.04,Debit Card,Authentication Failed,28,22,6,0.786,1,1,Pending,2026-08-19 05:29:01
+TXN-10212,CUST-1007,ECHO Commerce (CUST-1007),399.4,ACH Direct Debit,Insufficient Funds,19,12,7,0.632,1,0,Failed,2026-08-28 17:34:45
+TXN-10213,CUST-1144,Yuki Tanaka (CUST-1144),137.2,ACH Direct Debit,Expired Card,77,47,30,0.61,0,1,Recovered,2026-08-21 18:44:27
+TXN-10214,CUST-1017,Marcus Chen (CUST-1017),37.57,UPI,Network Timeout,105,76,29,0.724,0,1,Recovered,2026-08-24 19:13:56
+TXN-10215,CUST-1051,Starlight Media (CUST-1051),210.97,UPI,Bank Decline,90,69,21,0.767,1,0,Failed,2026-08-20 04:39:08
+TXN-10216,CUST-1111,Rajesh Kumar (CUST-1111),125.09,UPI,Network Timeout,81,66,15,0.815,2,0,Failed,2026-08-21 08:34:43
+TXN-10217,CUST-1046,Fatima Al-Mansoor (CUST-1046),1153.75,ACH Direct Debit,Bank Decline,59,41,18,0.695,0,0,Failed,2026-08-31 11:34:04
+TXN-10218,CUST-1101,Vanguard Systems (CUST-1101),979.62,Debit Card,Bank Decline,51,31,20,0.608,0,0,Failed,2026-09-04 06:38:01
+TXN-10219,CUST-1054,Pulse Health (CUST-1054),281.1,ACH Direct Debit,Expired Card,41,36,5,0.878,3,0,Failed,2026-08-26 17:55:44
+TXN-10220,CUST-1109,Alex Mercer (CUST-1109),183.28,Digital Wallet,Authentication Failed,35,28,7,0.8,2,1,Pending,2026-08-19 12:52:05
+TXN-10221,CUST-1010,Zenith Financial (CUST-1010),2301.45,Digital Wallet,Insufficient Funds,91,78,13,0.857,0,0,Unrecoverable,2026-08-26 22:16:17
+TXN-10222,CUST-1043,David Miller (CUST-1043),2468.86,ACH Direct Debit,Network Timeout,115,102,13,0.887,1,1,Recovered,2026-08-14 17:59:00
+TXN-10223,CUST-1131,CloudScale Networks (CUST-1131),115.83,ACH Direct Debit,Network Timeout,116,80,36,0.69,1,1,Pending,2026-08-24 15:28:35
+TXN-10224,CUST-1129,Nexus Retail (CUST-1129),598.97,ACH Direct Debit,Insufficient Funds,77,70,7,0.909,0,0,Unrecoverable,2026-08-11 05:41:52
+TXN-10225,CUST-1080,Quantum Labs (CUST-1080),502.92,ACH Direct Debit,Insufficient Funds,107,101,6,0.944,1,0,Failed,2026-08-16 13:18:23
+TXN-10226,CUST-1077,Vanguard Systems (CUST-1077),469.85,Credit Card,Expired Card,72,59,13,0.819,3,1,Recovered,2026-08-23 13:04:02
+TXN-10227,CUST-1085,Alex Mercer (CUST-1085),581.31,Debit Card,Expired Card,38,23,15,0.605,3,0,Failed,2026-08-07 20:42:36
+TXN-10228,CUST-1051,Starlight Media (CUST-1051),75.69,Debit Card,Network Timeout,90,69,21,0.767,3,0,Failed,2026-08-24 07:22:56
+TXN-10229,CUST-1138,Priya Sharma (CUST-1138),296.69,ACH Direct Debit,Bank Decline,62,53,9,0.855,3,0,Failed,2026-08-25 07:50:01
+TXN-10230,CUST-1030,Pulse Health (CUST-1030),1772.99,UPI,Bank Decline,117,80,37,0.684,2,0,Failed,2026-08-16 09:11:08
+TXN-10231,CUST-1062,Sarah Jenkins (CUST-1062),1917.53,ACH Direct Debit,Authentication Failed,16,11,5,0.688,2,1,Recovered,2026-08-19 16:16:47
+TXN-10232,CUST-1125,Vanguard Systems (CUST-1125),100.79,Digital Wallet,Expired Card,39,36,3,0.923,1,1,Recovered,2026-08-16 10:11:21
+TXN-10233,CUST-1116,Sophia Taylor (CUST-1116),539.49,Debit Card,Expired Card,60,46,14,0.767,1,0,Unrecoverable,2026-08-26 13:54:07
+TXN-10234,CUST-1105,Nexus Retail (CUST-1105),337.03,Debit Card,Insufficient Funds,37,23,14,0.622,2,1,Recovered,2026-08-15 17:59:47
+TXN-10235,CUST-1071,Liam O'Connor (CUST-1071),2083.41,ACH Direct Debit,Bank Decline,28,21,7,0.75,2,0,Failed,2026-08-15 00:34:18
+TXN-10236,CUST-1140,Sophia Taylor (CUST-1140),126.14,ACH Direct Debit,Bank Decline,79,67,12,0.848,0,0,Failed,2026-08-29 01:36:13
+TXN-10237,CUST-1064,Elena Rostova (CUST-1064),599.69,Credit Card,Authentication Failed,75,52,23,0.693,0,0,Failed,2026-08-13 06:48:14
+TXN-10238,CUST-1090,Priya Sharma (CUST-1090),1413.52,Debit Card,Expired Card,24,15,9,0.625,0,0,Unrecoverable,2026-08-17 12:16:44
+TXN-10239,CUST-1072,Yuki Tanaka (CUST-1072),225.77,UPI,Bank Decline,100,93,7,0.93,1,0,Unrecoverable,2026-09-05 13:14:36
+TXN-10240,CUST-1025,Apex Logistics (CUST-1025),33.3,UPI,Expired Card,87,81,6,0.931,3,0,Failed,2026-08-11 08:59:13
+TXN-10241,CUST-1083,CloudScale Networks (CUST-1083),492.66,Debit Card,Bank Decline,54,50,4,0.926,3,0,Failed,2026-08-18 05:48:57
+TXN-10242,CUST-1020,Sophia Taylor (CUST-1020),776.88,UPI,Network Timeout,85,59,26,0.694,1,0,Failed,2026-08-24 10:41:59
+TXN-10243,CUST-1024,Yuki Tanaka (CUST-1024),356.3,Credit Card,Bank Decline,45,41,4,0.911,1,0,Failed,2026-08-31 17:34:55
+TXN-10244,CUST-1127,ECHO Commerce (CUST-1127),1241.73,Debit Card,Bank Decline,118,109,9,0.924,1,0,Unrecoverable,2026-08-29 20:30:52
+TXN-10245,CUST-1012,Aura Designs (CUST-1012),28.44,Debit Card,Authentication Failed,83,58,25,0.699,1,1,Recovered,2026-08-13 01:21:39
+TXN-10246,CUST-1034,Zenith Financial (CUST-1034),285.84,Credit Card,Network Timeout,53,36,17,0.679,1,1,Pending,2026-09-03 02:25:40
+TXN-10247,CUST-1043,David Miller (CUST-1043),21.99,ACH Direct Debit,Insufficient Funds,115,102,13,0.887,3,0,Failed,2026-08-21 06:59:33
+TXN-10248,CUST-1034,Zenith Financial (CUST-1034),95.15,UPI,Insufficient Funds,53,36,17,0.679,1,0,Failed,2026-08-09 02:41:17
+TXN-10249,CUST-1099,Starlight Media (CUST-1099),512.68,UPI,Expired Card,74,57,17,0.77,1,0,Failed,2026-08-26 05:37:35
+TXN-10250,CUST-1037,Alex Mercer (CUST-1037),24.24,ACH Direct Debit,Network Timeout,85,71,14,0.835,3,1,Pending,2026-08-11 12:40:52
+TXN-10251,CUST-1106,Zenith Financial (CUST-1106),98.17,Debit Card,Insufficient Funds,12,11,1,0.917,2,0,Failed,2026-09-04 21:13:51
+TXN-10252,CUST-1081,Nexus Retail (CUST-1081),121.8,Digital Wallet,Bank Decline,8,6,2,0.75,2,0,Failed,2026-08-30 08:32:59
+TXN-10253,CUST-1007,ECHO Commerce (CUST-1007),1173.13,Digital Wallet,Bank Decline,19,12,7,0.632,0,0,Failed,2026-08-26 08:56:02
+TXN-10254,CUST-1062,Sarah Jenkins (CUST-1062),1549.21,Credit Card,Bank Decline,16,11,5,0.688,0,0,Failed,2026-08-10 22:43:10
+TXN-10255,CUST-1146,Nova Software (CUST-1146),395.86,Credit Card,Insufficient Funds,82,64,18,0.78,2,1,Recovered,2026-08-13 11:01:36
+TXN-10256,CUST-1016,Elena Rostova (CUST-1016),1144.33,Digital Wallet,Authentication Failed,27,18,9,0.667,1,0,Failed,2026-08-26 04:52:43
+TXN-10257,CUST-1138,Priya Sharma (CUST-1138),1188.82,Debit Card,Expired Card,62,53,9,0.855,2,1,Pending,2026-08-26 00:23:01
+TXN-10258,CUST-1017,Marcus Chen (CUST-1017),56.87,Credit Card,Expired Card,105,76,29,0.724,0,0,Failed,2026-08-20 14:07:10
+TXN-10259,CUST-1015,Rajesh Kumar (CUST-1015),56.75,Credit Card,Expired Card,62,45,17,0.726,3,1,Recovered,2026-09-04 13:51:48
+TXN-10260,CUST-1134,Sarah Jenkins (CUST-1134),520.13,Debit Card,Network Timeout,15,9,6,0.6,3,0,Failed,2026-08-17 00:53:59
+TXN-10261,CUST-1110,Sarah Jenkins (CUST-1110),1953.41,Credit Card,Authentication Failed,100,95,5,0.95,1,1,Recovered,2026-08-21 23:24:39
+TXN-10262,CUST-1146,Nova Software (CUST-1146),2069.33,Credit Card,Expired Card,82,64,18,0.78,3,0,Failed,2026-09-01 17:56:52
+TXN-10263,CUST-1004,Horizon Tech (CUST-1004),48.01,Debit Card,Insufficient Funds,21,18,3,0.857,2,0,Unrecoverable,2026-08-29 04:58:16
+TXN-10264,CUST-1108,Aura Designs (CUST-1108),261.72,UPI,Insufficient Funds,43,36,7,0.837,2,0,Unrecoverable,2026-08-27 04:29:10
+TXN-10265,CUST-1014,Sarah Jenkins (CUST-1014),511.95,Credit Card,Authentication Failed,111,73,38,0.658,1,0,Failed,2026-08-16 19:20:54
+TXN-10266,CUST-1142,Fatima Al-Mansoor (CUST-1142),316.01,Digital Wallet,Expired Card,45,30,15,0.667,1,1,Recovered,2026-09-05 22:05:54
+TXN-10267,CUST-1051,Starlight Media (CUST-1051),113.88,Credit Card,Authentication Failed,90,69,21,0.767,0,1,Recovered,2026-08-26 01:34:11
+TXN-10268,CUST-1003,Starlight Media (CUST-1003),1848.88,UPI,Insufficient Funds,36,23,13,0.639,0,0,Failed,2026-08-19 13:57:33
+TXN-10269,CUST-1016,Elena Rostova (CUST-1016),146.3,Debit Card,Bank Decline,27,18,9,0.667,1,0,Failed,2026-08-20 17:46:53
+TXN-10270,CUST-1022,Fatima Al-Mansoor (CUST-1022),377.44,Credit Card,Bank Decline,76,49,27,0.645,2,0,Unrecoverable,2026-09-04 21:55:44
+TXN-10271,CUST-1061,Alex Mercer (CUST-1061),532.91,UPI,Network Timeout,95,72,23,0.758,1,1,Recovered,2026-09-04 07:03:04
+TXN-10272,CUST-1035,CloudScale Networks (CUST-1035),120.29,ACH Direct Debit,Authentication Failed,42,36,6,0.857,1,1,Pending,2026-08-17 17:39:31
+TXN-10273,CUST-1054,Pulse Health (CUST-1054),76.01,Debit Card,Network Timeout,41,36,5,0.878,3,0,Failed,2026-08-13 10:30:24
+TXN-10274,CUST-1084,Aura Designs (CUST-1084),470.02,Digital Wallet,Insufficient Funds,114,103,11,0.904,3,0,Failed,2026-08-07 22:04:15
+TXN-10275,CUST-1104,Quantum Labs (CUST-1104),130.37,ACH Direct Debit,Insufficient Funds,98,82,16,0.837,0,1,Recovered,2026-08-31 21:33:35
+TXN-10276,CUST-1057,Nexus Retail (CUST-1057),1307.26,Credit Card,Bank Decline,25,19,6,0.76,2,0,Failed,2026-08-07 15:23:16
+TXN-10277,CUST-1017,Marcus Chen (CUST-1017),41.7,UPI,Insufficient Funds,105,76,29,0.724,0,0,Failed,2026-08-12 00:38:38
+TXN-10278,CUST-1147,Starlight Media (CUST-1147),475.99,ACH Direct Debit,Expired Card,117,93,24,0.795,1,1,Recovered,2026-08-15 05:40:43
+TXN-10279,CUST-1115,David Miller (CUST-1115),134.26,UPI,Authentication Failed,63,46,17,0.73,1,0,Failed,2026-08-08 19:35:48
+TXN-10280,CUST-1072,Yuki Tanaka (CUST-1072),1821.04,Debit Card,Bank Decline,100,93,7,0.93,0,0,Unrecoverable,2026-08-17 18:15:09
+TXN-10281,CUST-1140,Sophia Taylor (CUST-1140),304.82,ACH Direct Debit,Network Timeout,79,67,12,0.848,0,1,Pending,2026-08-13 13:23:10
+TXN-10282,CUST-1072,Yuki Tanaka (CUST-1072),1605.92,Debit Card,Expired Card,100,93,7,0.93,0,1,Recovered,2026-08-14 23:35:28
+TXN-10283,CUST-1015,Rajesh Kumar (CUST-1015),576.51,UPI,Expired Card,62,45,17,0.726,0,1,Recovered,2026-08-31 04:09:47
+TXN-10284,CUST-1092,Sophia Taylor (CUST-1092),1931.07,Digital Wallet,Expired Card,29,20,9,0.69,2,0,Failed,2026-08-23 06:01:17
+TXN-10285,CUST-1045,Carlos Mendez (CUST-1045),81.21,Credit Card,Bank Decline,12,10,2,0.833,1,1,Pending,2026-08-13 00:44:46
+TXN-10286,CUST-1034,Zenith Financial (CUST-1034),229.86,Credit Card,Insufficient Funds,53,36,17,0.679,0,0,Failed,2026-08-30 05:14:08
+TXN-10287,CUST-1135,Rajesh Kumar (CUST-1135),1309.82,ACH Direct Debit,Bank Decline,8,7,1,0.875,0,0,Failed,2026-08-11 01:56:13
+TXN-10288,CUST-1041,Marcus Chen (CUST-1041),346.59,UPI,Expired Card,89,76,13,0.854,3,0,Unrecoverable,2026-09-02 16:12:14
+TXN-10289,CUST-1092,Sophia Taylor (CUST-1092),415.03,UPI,Expired Card,29,20,9,0.69,0,0,Unrecoverable,2026-09-04 10:45:16
+TXN-10290,CUST-1101,Vanguard Systems (CUST-1101),129.85,Digital Wallet,Network Timeout,51,31,20,0.608,2,1,Pending,2026-08-10 02:39:04
+TXN-10291,CUST-1128,Quantum Labs (CUST-1128),485.4,Debit Card,Insufficient Funds,20,12,8,0.6,3,0,Unrecoverable,2026-09-02 14:04:56
+TXN-10292,CUST-1115,David Miller (CUST-1115),244.36,UPI,Insufficient Funds,63,46,17,0.73,3,1,Recovered,2026-08-20 03:12:37
+TXN-10293,CUST-1108,Aura Designs (CUST-1108),548.05,UPI,Bank Decline,43,36,7,0.837,1,1,Recovered,2026-08-30 15:34:38
+TXN-10294,CUST-1148,Horizon Tech (CUST-1148),102.88,Credit Card,Network Timeout,15,14,1,0.933,0,1,Recovered,2026-08-09 05:06:58
+TXN-10295,CUST-1044,Sophia Taylor (CUST-1044),134.87,UPI,Bank Decline,15,10,5,0.667,2,0,Unrecoverable,2026-08-07 22:00:24
+TXN-10296,CUST-1043,David Miller (CUST-1043),345.39,Debit Card,Expired Card,115,102,13,0.887,1,0,Unrecoverable,2026-09-03 18:06:17
+TXN-10297,CUST-1139,David Miller (CUST-1139),50.81,ACH Direct Debit,Bank Decline,101,98,3,0.97,2,0,Failed,2026-08-08 14:56:07
+TXN-10298,CUST-1001,Apex Logistics (CUST-1001),1857.84,ACH Direct Debit,Expired Card,89,57,32,0.64,0,1,Recovered,2026-08-26 03:11:20
+TXN-10299,CUST-1021,Carlos Mendez (CUST-1021),201.98,ACH Direct Debit,Network Timeout,13,11,2,0.846,0,1,Recovered,2026-08-12 12:48:22
+TXN-10300,CUST-1098,Nova Software (CUST-1098),350.6,UPI,Expired Card,91,67,24,0.736,1,0,Failed,2026-08-29 13:18:04
+TXN-10301,CUST-1025,Apex Logistics (CUST-1025),1628.75,Debit Card,Bank Decline,87,81,6,0.931,0,0,Unrecoverable,2026-08-19 13:06:24
+TXN-10302,CUST-1138,Priya Sharma (CUST-1138),107.75,ACH Direct Debit,Network Timeout,62,53,9,0.855,0,1,Pending,2026-08-08 00:41:46
+TXN-10303,CUST-1147,Starlight Media (CUST-1147),1887.32,Debit Card,Insufficient Funds,117,93,24,0.795,1,1,Recovered,2026-09-05 03:39:01
+TXN-10304,CUST-1050,Nova Software (CUST-1050),340.52,Debit Card,Expired Card,71,53,18,0.746,2,1,Pending,2026-09-03 09:53:49
+TXN-10305,CUST-1018,Priya Sharma (CUST-1018),400.36,Digital Wallet,Authentication Failed,19,14,5,0.737,0,0,Unrecoverable,2026-08-24 14:44:47
+TXN-10306,CUST-1108,Aura Designs (CUST-1108),1676.53,Credit Card,Insufficient Funds,43,36,7,0.837,2,0,Failed,2026-09-02 00:16:26
+TXN-10307,CUST-1089,Marcus Chen (CUST-1089),1844.1,Digital Wallet,Authentication Failed,105,84,21,0.8,0,1,Recovered,2026-08-11 07:15:56
+TXN-10308,CUST-1103,ECHO Commerce (CUST-1103),20.24,Credit Card,Authentication Failed,36,21,15,0.583,1,0,Failed,2026-08-17 02:57:19
+TXN-10309,CUST-1078,Pulse Health (CUST-1078),2230.65,Credit Card,Expired Card,27,20,7,0.741,0,1,Pending,2026-08-20 06:43:53
+TXN-10310,CUST-1083,CloudScale Networks (CUST-1083),51.37,ACH Direct Debit,Expired Card,54,50,4,0.926,1,0,Unrecoverable,2026-09-02 00:04:04
+TXN-10311,CUST-1015,Rajesh Kumar (CUST-1015),1191.13,ACH Direct Debit,Expired Card,62,45,17,0.726,2,0,Failed,2026-08-12 04:46:57
+TXN-10312,CUST-1052,Horizon Tech (CUST-1052),262.27,Debit Card,Network Timeout,41,26,15,0.634,1,0,Unrecoverable,2026-08-18 21:29:24
+TXN-10313,CUST-1032,Quantum Labs (CUST-1032),258.87,Debit Card,Authentication Failed,66,55,11,0.833,2,0,Failed,2026-08-11 21:25:17
+TXN-10314,CUST-1067,David Miller (CUST-1067),459.98,Credit Card,Expired Card,22,18,4,0.818,2,0,Failed,2026-09-01 16:48:42
+TXN-10315,CUST-1058,Zenith Financial (CUST-1058),106.49,Credit Card,Authentication Failed,19,16,3,0.842,0,1,Pending,2026-08-31 00:18:52
+TXN-10316,CUST-1058,Zenith Financial (CUST-1058),1180.37,UPI,Authentication Failed,19,16,3,0.842,1,0,Failed,2026-08-14 13:07:51
+TXN-10317,CUST-1120,Yuki Tanaka (CUST-1120),1784.85,Credit Card,Insufficient Funds,101,73,28,0.723,2,0,Failed,2026-08-23 19:56:27
+TXN-10318,CUST-1073,Apex Logistics (CUST-1073),198.65,UPI,Network Timeout,41,39,2,0.951,1,1,Pending,2026-08-15 22:49:17
+TXN-10319,CUST-1039,Rajesh Kumar (CUST-1039),707.87,ACH Direct Debit,Network Timeout,28,21,7,0.75,3,1,Recovered,2026-08-26 15:34:48
+TXN-10320,CUST-1076,Horizon Tech (CUST-1076),50.02,Digital Wallet,Bank Decline,46,42,4,0.913,0,0,Unrecoverable,2026-08-13 15:47:35
+TXN-10321,CUST-1137,Marcus Chen (CUST-1137),364.08,Digital Wallet,Network Timeout,108,83,25,0.769,0,1,Pending,2026-08-12 10:06:34
+TXN-10322,CUST-1025,Apex Logistics (CUST-1025),1977.85,Debit Card,Network Timeout,87,81,6,0.931,3,1,Recovered,2026-08-13 16:29:16
+TXN-10323,CUST-1079,ECHO Commerce (CUST-1079),1306.2,UPI,Authentication Failed,28,22,6,0.786,0,1,Pending,2026-08-24 11:51:55
+TXN-10324,CUST-1019,David Miller (CUST-1019),827.65,ACH Direct Debit,Bank Decline,53,48,5,0.906,1,0,Failed,2026-08-11 02:35:41
+TXN-10325,CUST-1052,Horizon Tech (CUST-1052),594.24,Debit Card,Network Timeout,41,26,15,0.634,3,1,Recovered,2026-08-21 14:45:00
+TXN-10326,CUST-1046,Fatima Al-Mansoor (CUST-1046),57.31,Debit Card,Bank Decline,59,41,18,0.695,0,0,Failed,2026-08-10 20:51:50
+TXN-10327,CUST-1112,Elena Rostova (CUST-1112),331.53,Credit Card,Insufficient Funds,39,35,4,0.897,2,1,Recovered,2026-09-04 11:44:28
+TXN-10328,CUST-1083,CloudScale Networks (CUST-1083),117.17,Debit Card,Expired Card,54,50,4,0.926,3,0,Failed,2026-08-10 20:31:19
+TXN-10329,CUST-1099,Starlight Media (CUST-1099),82.95,UPI,Network Timeout,74,57,17,0.77,1,1,Pending,2026-08-22 17:03:23
+TXN-10330,CUST-1112,Elena Rostova (CUST-1112),597.96,UPI,Expired Card,39,35,4,0.897,0,0,Failed,2026-08-07 13:27:41
+TXN-10331,CUST-1058,Zenith Financial (CUST-1058),1994.75,Digital Wallet,Expired Card,19,16,3,0.842,0,1,Pending,2026-08-30 18:01:24
+TXN-10332,CUST-1097,Apex Logistics (CUST-1097),133.33,Digital Wallet,Insufficient Funds,59,57,2,0.966,3,1,Recovered,2026-08-08 10:25:15
+TXN-10333,CUST-1030,Pulse Health (CUST-1030),321.11,Debit Card,Expired Card,117,80,37,0.684,3,0,Failed,2026-08-16 00:29:44
+TXN-10334,CUST-1026,Nova Software (CUST-1026),104.44,ACH Direct Debit,Insufficient Funds,54,44,10,0.815,2,0,Failed,2026-08-15 11:14:26
+TXN-10335,CUST-1028,Horizon Tech (CUST-1028),2078.12,Debit Card,Network Timeout,92,63,29,0.685,3,0,Failed,2026-08-08 04:03:50
+TXN-10336,CUST-1128,Quantum Labs (CUST-1128),137.9,Credit Card,Insufficient Funds,20,12,8,0.6,3,0,Failed,2026-09-01 01:03:32
+TXN-10337,CUST-1127,ECHO Commerce (CUST-1127),1572.24,Credit Card,Network Timeout,118,109,9,0.924,3,1,Recovered,2026-08-14 21:51:42
+TXN-10338,CUST-1013,Alex Mercer (CUST-1013),228.62,UPI,Network Timeout,119,71,48,0.597,1,0,Failed,2026-09-01 12:35:19
+TXN-10339,CUST-1012,Aura Designs (CUST-1012),212.28,UPI,Authentication Failed,83,58,25,0.699,2,1,Pending,2026-08-09 18:37:00
+TXN-10340,CUST-1088,Elena Rostova (CUST-1088),330.35,ACH Direct Debit,Authentication Failed,70,63,7,0.9,1,1,Recovered,2026-08-10 09:05:33
+TXN-10341,CUST-1016,Elena Rostova (CUST-1016),797.05,ACH Direct Debit,Bank Decline,27,18,9,0.667,3,0,Unrecoverable,2026-08-18 09:06:44
+TXN-10342,CUST-1092,Sophia Taylor (CUST-1092),2271.91,Debit Card,Authentication Failed,29,20,9,0.69,1,1,Recovered,2026-08-20 04:59:13
+TXN-10343,CUST-1017,Marcus Chen (CUST-1017),1938.68,Digital Wallet,Bank Decline,105,76,29,0.724,3,0,Unrecoverable,2026-09-02 04:21:18
+TXN-10344,CUST-1133,Alex Mercer (CUST-1133),780.96,Debit Card,Authentication Failed,35,32,3,0.914,1,1,Pending,2026-08-18 12:48:10
+TXN-10345,CUST-1143,Liam O'Connor (CUST-1143),135.43,Digital Wallet,Authentication Failed,15,12,3,0.8,1,0,Failed,2026-08-29 12:43:17
+TXN-10346,CUST-1083,CloudScale Networks (CUST-1083),47.52,Digital Wallet,Authentication Failed,54,50,4,0.926,1,0,Failed,2026-08-20 18:14:23
+TXN-10347,CUST-1147,Starlight Media (CUST-1147),75.49,ACH Direct Debit,Insufficient Funds,117,93,24,0.795,0,1,Recovered,2026-08-23 16:49:34
+TXN-10348,CUST-1001,Apex Logistics (CUST-1001),2430.03,UPI,Bank Decline,89,57,32,0.64,2,0,Unrecoverable,2026-08-20 16:09:41
+TXN-10349,CUST-1088,Elena Rostova (CUST-1088),174.42,UPI,Bank Decline,70,63,7,0.9,2,0,Unrecoverable,2026-08-26 16:51:07
+TXN-10350,CUST-1116,Sophia Taylor (CUST-1116),491.69,UPI,Network Timeout,60,46,14,0.767,2,1,Pending,2026-08-10 04:14:37
+TXN-10351,CUST-1043,David Miller (CUST-1043),519.83,Credit Card,Network Timeout,115,102,13,0.887,2,1,Recovered,2026-09-03 21:26:51
+TXN-10352,CUST-1101,Vanguard Systems (CUST-1101),521.05,Credit Card,Authentication Failed,51,31,20,0.608,0,0,Unrecoverable,2026-08-24 15:38:08
+TXN-10353,CUST-1116,Sophia Taylor (CUST-1116),415.19,Credit Card,Bank Decline,60,46,14,0.767,3,1,Recovered,2026-09-01 03:38:21
+TXN-10354,CUST-1124,Horizon Tech (CUST-1124),2329.34,Digital Wallet,Expired Card,31,21,10,0.677,3,0,Failed,2026-08-18 14:37:25
+TXN-10355,CUST-1083,CloudScale Networks (CUST-1083),2461.05,Debit Card,Network Timeout,54,50,4,0.926,1,0,Failed,2026-08-20 13:44:26
+TXN-10356,CUST-1035,CloudScale Networks (CUST-1035),2284.23,UPI,Bank Decline,42,36,6,0.857,1,0,Unrecoverable,2026-08-25 23:09:06
+TXN-10357,CUST-1052,Horizon Tech (CUST-1052),1904.56,Debit Card,Expired Card,41,26,15,0.634,2,0,Unrecoverable,2026-08-16 15:48:23
+TXN-10358,CUST-1030,Pulse Health (CUST-1030),1707.33,ACH Direct Debit,Bank Decline,117,80,37,0.684,1,0,Failed,2026-08-31 05:40:16
+TXN-10359,CUST-1134,Sarah Jenkins (CUST-1134),29.37,Debit Card,Network Timeout,15,9,6,0.6,0,0,Unrecoverable,2026-08-14 12:05:44
+TXN-10360,CUST-1016,Elena Rostova (CUST-1016),108.23,UPI,Authentication Failed,27,18,9,0.667,0,1,Pending,2026-08-29 04:07:35
+TXN-10361,CUST-1058,Zenith Financial (CUST-1058),1051.43,UPI,Insufficient Funds,19,16,3,0.842,1,0,Unrecoverable,2026-08-16 08:48:09
+TXN-10362,CUST-1142,Fatima Al-Mansoor (CUST-1142),484.65,Debit Card,Network Timeout,45,30,15,0.667,2,1,Pending,2026-08-12 21:08:58
+TXN-10363,CUST-1050,Nova Software (CUST-1050),54.71,Debit Card,Bank Decline,71,53,18,0.746,0,0,Failed,2026-08-15 08:39:09
+TXN-10364,CUST-1068,Sophia Taylor (CUST-1068),412.79,ACH Direct Debit,Expired Card,76,67,9,0.882,0,1,Recovered,2026-08-24 21:26:44
+TXN-10365,CUST-1078,Pulse Health (CUST-1078),1280.36,UPI,Bank Decline,27,20,7,0.741,0,0,Unrecoverable,2026-08-09 00:46:43
+TXN-10366,CUST-1130,Zenith Financial (CUST-1130),394.39,Debit Card,Expired Card,19,18,1,0.947,3,0,Failed,2026-08-15 19:03:55
+TXN-10367,CUST-1136,Elena Rostova (CUST-1136),2029.05,Credit Card,Insufficient Funds,41,39,2,0.951,3,0,Failed,2026-09-03 02:55:45
+TXN-10368,CUST-1063,Rajesh Kumar (CUST-1063),144.45,ACH Direct Debit,Network Timeout,84,82,2,0.976,2,0,Failed,2026-09-03 07:51:13
+TXN-10369,CUST-1096,Yuki Tanaka (CUST-1096),378.93,Debit Card,Network Timeout,33,28,5,0.848,2,1,Recovered,2026-08-12 00:12:57
+TXN-10370,CUST-1138,Priya Sharma (CUST-1138),1000.48,Debit Card,Authentication Failed,62,53,9,0.855,0,1,Pending,2026-09-02 08:18:38
+TXN-10371,CUST-1112,Elena Rostova (CUST-1112),102.29,Credit Card,Authentication Failed,39,35,4,0.897,3,1,Recovered,2026-08-09 04:25:49
+TXN-10372,CUST-1046,Fatima Al-Mansoor (CUST-1046),122.22,UPI,Authentication Failed,59,41,18,0.695,1,1,Recovered,2026-08-19 23:28:11
+TXN-10373,CUST-1005,Vanguard Systems (CUST-1005),611.21,Digital Wallet,Insufficient Funds,77,48,29,0.623,3,0,Unrecoverable,2026-09-01 10:25:57
+TXN-10374,CUST-1092,Sophia Taylor (CUST-1092),197.76,Digital Wallet,Insufficient Funds,29,20,9,0.69,1,0,Failed,2026-08-18 10:18:34
+TXN-10375,CUST-1008,Quantum Labs (CUST-1008),390.06,Digital Wallet,Network Timeout,72,59,13,0.819,3,1,Pending,2026-09-02 14:18:57
+TXN-10376,CUST-1096,Yuki Tanaka (CUST-1096),144.25,Credit Card,Insufficient Funds,33,28,5,0.848,0,0,Failed,2026-08-23 02:26:28
+TXN-10377,CUST-1022,Fatima Al-Mansoor (CUST-1022),486.73,Debit Card,Authentication Failed,76,49,27,0.645,3,0,Failed,2026-08-11 19:34:44
+TXN-10378,CUST-1057,Nexus Retail (CUST-1057),817.78,Digital Wallet,Insufficient Funds,25,19,6,0.76,2,0,Unrecoverable,2026-08-09 04:21:21
+TXN-10379,CUST-1018,Priya Sharma (CUST-1018),238.84,UPI,Expired Card,19,14,5,0.737,3,0,Failed,2026-08-15 12:59:26
+TXN-10380,CUST-1018,Priya Sharma (CUST-1018),1456.23,UPI,Bank Decline,19,14,5,0.737,0,0,Failed,2026-08-31 05:14:08
+TXN-10381,CUST-1110,Sarah Jenkins (CUST-1110),2092.75,ACH Direct Debit,Network Timeout,100,95,5,0.95,1,1,Pending,2026-08-16 22:25:01
+TXN-10382,CUST-1123,Starlight Media (CUST-1123),1180.4,Credit Card,Expired Card,65,42,23,0.646,3,0,Failed,2026-09-01 17:57:56
+TXN-10383,CUST-1036,Aura Designs (CUST-1036),1993.73,Credit Card,Insufficient Funds,95,80,15,0.842,0,0,Unrecoverable,2026-08-07 22:09:06
+TXN-10384,CUST-1149,Vanguard Systems (CUST-1149),93.15,Digital Wallet,Network Timeout,18,16,2,0.889,2,0,Unrecoverable,2026-08-21 03:36:24
+TXN-10385,CUST-1039,Rajesh Kumar (CUST-1039),2067.08,UPI,Expired Card,28,21,7,0.75,1,0,Failed,2026-08-18 21:22:37
+TXN-10386,CUST-1129,Nexus Retail (CUST-1129),2431.6,Debit Card,Bank Decline,77,70,7,0.909,0,0,Failed,2026-08-23 23:28:08
+TXN-10387,CUST-1145,Apex Logistics (CUST-1145),585.48,UPI,Insufficient Funds,48,29,19,0.604,0,0,Failed,2026-08-08 20:57:06
+TXN-10388,CUST-1095,Liam O'Connor (CUST-1095),450.86,ACH Direct Debit,Authentication Failed,104,91,13,0.875,1,0,Failed,2026-09-05 09:42:59
+TXN-10389,CUST-1083,CloudScale Networks (CUST-1083),585.8,UPI,Bank Decline,54,50,4,0.926,2,0,Failed,2026-08-26 14:20:16
+TXN-10390,CUST-1094,Fatima Al-Mansoor (CUST-1094),554.2,ACH Direct Debit,Expired Card,35,33,2,0.943,2,1,Recovered,2026-08-21 14:13:55
+TXN-10391,CUST-1124,Horizon Tech (CUST-1124),152.97,Debit Card,Expired Card,31,21,10,0.677,0,1,Recovered,2026-08-13 07:59:02
+TXN-10392,CUST-1048,Yuki Tanaka (CUST-1048),2152.21,Debit Card,Authentication Failed,80,74,6,0.925,1,0,Failed,2026-08-27 05:51:25
+TXN-10393,CUST-1123,Starlight Media (CUST-1123),43.45,Debit Card,Insufficient Funds,65,42,23,0.646,0,0,Failed,2026-08-11 00:41:35
+TXN-10394,CUST-1132,Aura Designs (CUST-1132),407.52,Debit Card,Bank Decline,60,47,13,0.783,1,0,Unrecoverable,2026-08-26 02:46:48
+TXN-10395,CUST-1073,Apex Logistics (CUST-1073),247.47,ACH Direct Debit,Expired Card,41,39,2,0.951,0,0,Unrecoverable,2026-08-11 06:26:40
+TXN-10396,CUST-1150,Pulse Health (CUST-1150),231.85,Debit Card,Network Timeout,16,13,3,0.812,1,1,Recovered,2026-08-13 21:09:27
+TXN-10397,CUST-1099,Starlight Media (CUST-1099),1593.15,ACH Direct Debit,Expired Card,74,57,17,0.77,2,1,Recovered,2026-09-03 00:50:59
+TXN-10398,CUST-1010,Zenith Financial (CUST-1010),133.5,ACH Direct Debit,Expired Card,91,78,13,0.857,2,0,Failed,2026-09-02 21:30:34
+TXN-10399,CUST-1111,Rajesh Kumar (CUST-1111),682.53,ACH Direct Debit,Expired Card,81,66,15,0.815,1,0,Failed,2026-08-17 12:03:52
+TXN-10400,CUST-1148,Horizon Tech (CUST-1148),28.19,Credit Card,Network Timeout,15,14,1,0.933,2,0,Failed,2026-08-14 17:18:41
+TXN-10401,CUST-1002,Nova Software (CUST-1002),110.74,Digital Wallet,Insufficient Funds,102,71,31,0.696,1,0,Unrecoverable,2026-08-31 02:46:42
+TXN-10402,CUST-1105,Nexus Retail (CUST-1105),219.65,UPI,Bank Decline,37,23,14,0.622,1,0,Unrecoverable,2026-08-15 06:05:43
+TXN-10403,CUST-1102,Pulse Health (CUST-1102),335.95,Debit Card,Network Timeout,78,53,25,0.679,2,1,Recovered,2026-09-05 15:25:03
+TXN-10404,CUST-1148,Horizon Tech (CUST-1148),1997.99,Credit Card,Expired Card,15,14,1,0.933,1,0,Failed,2026-08-09 23:53:32
+TXN-10405,CUST-1131,CloudScale Networks (CUST-1131),1646.09,Credit Card,Expired Card,116,80,36,0.69,1,0,Failed,2026-08-31 02:50:15
+TXN-10406,CUST-1038,Sarah Jenkins (CUST-1038),420.11,Debit Card,Network Timeout,76,66,10,0.868,0,1,Pending,2026-08-18 12:24:23
+TXN-10407,CUST-1103,ECHO Commerce (CUST-1103),1952.05,Credit Card,Expired Card,36,21,15,0.583,3,0,Failed,2026-08-13 00:55:15
+TXN-10408,CUST-1133,Alex Mercer (CUST-1133),1739.08,Debit Card,Bank Decline,35,32,3,0.914,0,0,Failed,2026-08-14 03:57:23
+TXN-10409,CUST-1001,Apex Logistics (CUST-1001),189.08,UPI,Authentication Failed,89,57,32,0.64,1,0,Unrecoverable,2026-08-07 10:45:20
+TXN-10410,CUST-1018,Priya Sharma (CUST-1018),1979.66,Digital Wallet,Network Timeout,19,14,5,0.737,1,0,Failed,2026-08-13 18:37:28
+TXN-10411,CUST-1050,Nova Software (CUST-1050),76.39,ACH Direct Debit,Bank Decline,71,53,18,0.746,0,0,Unrecoverable,2026-08-15 19:33:11
+TXN-10412,CUST-1030,Pulse Health (CUST-1030),2264.61,UPI,Authentication Failed,117,80,37,0.684,1,0,Failed,2026-08-29 17:04:21
+TXN-10413,CUST-1118,Fatima Al-Mansoor (CUST-1118),553.44,Credit Card,Network Timeout,91,88,3,0.967,0,1,Recovered,2026-08-27 07:04:08
+TXN-10414,CUST-1059,CloudScale Networks (CUST-1059),1270.88,Credit Card,Network Timeout,118,75,43,0.636,0,1,Recovered,2026-08-27 04:45:15
+TXN-10415,CUST-1088,Elena Rostova (CUST-1088),569.13,Debit Card,Bank Decline,70,63,7,0.9,1,0,Unrecoverable,2026-08-27 11:31:44
+TXN-10416,CUST-1049,Apex Logistics (CUST-1049),239.85,Debit Card,Expired Card,48,32,16,0.667,0,0,Unrecoverable,2026-08-17 16:01:53
+TXN-10417,CUST-1028,Horizon Tech (CUST-1028),185.32,Digital Wallet,Insufficient Funds,92,63,29,0.685,2,0,Failed,2026-08-18 02:57:11
+TXN-10418,CUST-1081,Nexus Retail (CUST-1081),593.41,ACH Direct Debit,Expired Card,8,6,2,0.75,2,1,Recovered,2026-08-29 11:48:49
+TXN-10419,CUST-1033,Nexus Retail (CUST-1033),1508.81,Credit Card,Bank Decline,54,35,19,0.648,1,0,Unrecoverable,2026-08-30 06:20:33
+TXN-10420,CUST-1118,Fatima Al-Mansoor (CUST-1118),1474.13,Credit Card,Insufficient Funds,91,88,3,0.967,3,0,Unrecoverable,2026-08-10 00:13:48
+TXN-10421,CUST-1093,Carlos Mendez (CUST-1093),97.73,UPI,Authentication Failed,119,98,21,0.824,2,1,Recovered,2026-08-21 22:48:22
+TXN-10422,CUST-1054,Pulse Health (CUST-1054),488.49,UPI,Authentication Failed,41,36,5,0.878,0,1,Pending,2026-08-27 13:37:13
+TXN-10423,CUST-1026,Nova Software (CUST-1026),511.84,Debit Card,Expired Card,54,44,10,0.815,3,1,Recovered,2026-08-12 06:50:56
+TXN-10424,CUST-1128,Quantum Labs (CUST-1128),1798.24,UPI,Authentication Failed,20,12,8,0.6,1,1,Pending,2026-08-08 10:02:33
+TXN-10425,CUST-1026,Nova Software (CUST-1026),177.02,Credit Card,Authentication Failed,54,44,10,0.815,3,1,Recovered,2026-08-17 19:06:45
+TXN-10426,CUST-1143,Liam O'Connor (CUST-1143),140.8,UPI,Bank Decline,15,12,3,0.8,0,0,Unrecoverable,2026-08-26 11:03:57
+TXN-10427,CUST-1045,Carlos Mendez (CUST-1045),1217.67,ACH Direct Debit,Authentication Failed,12,10,2,0.833,0,1,Recovered,2026-08-20 21:35:35
+TXN-10428,CUST-1038,Sarah Jenkins (CUST-1038),438.26,Digital Wallet,Bank Decline,76,66,10,0.868,1,0,Failed,2026-08-09 08:39:08
+TXN-10429,CUST-1088,Elena Rostova (CUST-1088),292.6,Digital Wallet,Authentication Failed,70,63,7,0.9,1,0,Failed,2026-08-29 10:10:35
+TXN-10430,CUST-1134,Sarah Jenkins (CUST-1134),145.35,Debit Card,Expired Card,15,9,6,0.6,3,0,Unrecoverable,2026-08-28 00:11:37
+TXN-10431,CUST-1021,Carlos Mendez (CUST-1021),328.67,Digital Wallet,Insufficient Funds,13,11,2,0.846,0,0,Unrecoverable,2026-08-29 22:29:21
+TXN-10432,CUST-1022,Fatima Al-Mansoor (CUST-1022),428.15,UPI,Expired Card,76,49,27,0.645,0,0,Failed,2026-08-25 18:45:28
+TXN-10433,CUST-1034,Zenith Financial (CUST-1034),226.77,UPI,Authentication Failed,53,36,17,0.679,1,0,Unrecoverable,2026-09-04 00:47:21
+TXN-10434,CUST-1141,Carlos Mendez (CUST-1141),75.05,Digital Wallet,Bank Decline,70,46,24,0.657,1,0,Unrecoverable,2026-09-02 07:20:35
+TXN-10435,CUST-1112,Elena Rostova (CUST-1112),437.79,ACH Direct Debit,Bank Decline,39,35,4,0.897,0,0,Failed,2026-08-16 05:21:24
+TXN-10436,CUST-1106,Zenith Financial (CUST-1106),50.07,UPI,Network Timeout,12,11,1,0.917,1,1,Pending,2026-09-03 15:35:43
+TXN-10437,CUST-1123,Starlight Media (CUST-1123),2116.13,Debit Card,Insufficient Funds,65,42,23,0.646,2,0,Failed,2026-09-02 10:50:54
+TXN-10438,CUST-1112,Elena Rostova (CUST-1112),223.47,ACH Direct Debit,Expired Card,39,35,4,0.897,1,1,Pending,2026-08-14 04:10:34
+TXN-10439,CUST-1070,Fatima Al-Mansoor (CUST-1070),484.32,Debit Card,Insufficient Funds,22,15,7,0.682,0,1,Recovered,2026-08-26 02:15:16
+TXN-10440,CUST-1116,Sophia Taylor (CUST-1116),51.74,Debit Card,Insufficient Funds,60,46,14,0.767,2,1,Recovered,2026-08-15 10:48:51
+TXN-10441,CUST-1033,Nexus Retail (CUST-1033),111.55,Credit Card,Authentication Failed,54,35,19,0.648,0,1,Recovered,2026-08-30 13:24:50
+TXN-10442,CUST-1128,Quantum Labs (CUST-1128),358.66,Credit Card,Expired Card,20,12,8,0.6,0,1,Recovered,2026-08-09 03:05:19
+TXN-10443,CUST-1121,Apex Logistics (CUST-1121),553.06,Credit Card,Insufficient Funds,118,75,43,0.636,3,0,Failed,2026-08-14 09:38:54
+TXN-10444,CUST-1009,Nexus Retail (CUST-1009),778.52,Debit Card,Authentication Failed,79,53,26,0.671,1,0,Failed,2026-09-04 01:46:00
+TXN-10445,CUST-1041,Marcus Chen (CUST-1041),2381.1,Credit Card,Network Timeout,89,76,13,0.854,1,1,Recovered,2026-08-17 19:11:56
+TXN-10446,CUST-1014,Sarah Jenkins (CUST-1014),814.56,ACH Direct Debit,Network Timeout,111,73,38,0.658,0,1,Recovered,2026-08-24 12:40:24
+TXN-10447,CUST-1102,Pulse Health (CUST-1102),679.79,ACH Direct Debit,Bank Decline,78,53,25,0.679,0,0,Failed,2026-08-14 10:46:18
+TXN-10448,CUST-1128,Quantum Labs (CUST-1128),2368.61,Credit Card,Insufficient Funds,20,12,8,0.6,1,0,Unrecoverable,2026-08-23 01:51:58
+TXN-10449,CUST-1028,Horizon Tech (CUST-1028),2465.18,UPI,Authentication Failed,92,63,29,0.685,3,1,Pending,2026-08-18 07:41:07
+TXN-10450,CUST-1035,CloudScale Networks (CUST-1035),1942.59,UPI,Bank Decline,42,36,6,0.857,3,0,Unrecoverable,2026-08-12 14:03:47
+TXN-10451,CUST-1090,Priya Sharma (CUST-1090),2248.56,Digital Wallet,Expired Card,24,15,9,0.625,0,0,Failed,2026-08-15 20:34:34
+TXN-10452,CUST-1068,Sophia Taylor (CUST-1068),2074.24,ACH Direct Debit,Expired Card,76,67,9,0.882,0,0,Failed,2026-08-30 06:25:25
+TXN-10453,CUST-1062,Sarah Jenkins (CUST-1062),178.5,Debit Card,Bank Decline,16,11,5,0.688,3,0,Unrecoverable,2026-08-11 14:39:59
+TXN-10454,CUST-1073,Apex Logistics (CUST-1073),809.88,Credit Card,Insufficient Funds,41,39,2,0.951,0,1,Recovered,2026-08-13 01:11:19
+TXN-10455,CUST-1125,Vanguard Systems (CUST-1125),164.32,ACH Direct Debit,Bank Decline,39,36,3,0.923,2,0,Failed,2026-08-08 11:02:00
+TXN-10456,CUST-1057,Nexus Retail (CUST-1057),96.8,ACH Direct Debit,Insufficient Funds,25,19,6,0.76,1,0,Failed,2026-08-17 19:33:30
+TXN-10457,CUST-1107,CloudScale Networks (CUST-1107),710.77,UPI,Bank Decline,17,13,4,0.765,0,0,Failed,2026-08-09 07:48:19
+TXN-10458,CUST-1056,Quantum Labs (CUST-1056),1977.83,ACH Direct Debit,Expired Card,59,43,16,0.729,0,0,Failed,2026-08-24 02:06:42
+TXN-10459,CUST-1046,Fatima Al-Mansoor (CUST-1046),2017.61,Digital Wallet,Network Timeout,59,41,18,0.695,3,0,Unrecoverable,2026-08-19 19:11:08
+TXN-10460,CUST-1027,Starlight Media (CUST-1027),231.18,Debit Card,Bank Decline,98,61,37,0.622,2,0,Failed,2026-09-03 01:28:51
+TXN-10461,CUST-1141,Carlos Mendez (CUST-1141),1306.27,ACH Direct Debit,Network Timeout,70,46,24,0.657,2,1,Pending,2026-08-13 09:43:12
+TXN-10462,CUST-1141,Carlos Mendez (CUST-1141),264.34,ACH Direct Debit,Insufficient Funds,70,46,24,0.657,3,1,Recovered,2026-08-24 20:38:27
+TXN-10463,CUST-1133,Alex Mercer (CUST-1133),33.24,Debit Card,Network Timeout,35,32,3,0.914,0,1,Pending,2026-08-31 15:46:29
+TXN-10464,CUST-1142,Fatima Al-Mansoor (CUST-1142),84.02,Credit Card,Authentication Failed,45,30,15,0.667,1,1,Recovered,2026-08-17 23:59:29
+TXN-10465,CUST-1150,Pulse Health (CUST-1150),1170.57,ACH Direct Debit,Bank Decline,16,13,3,0.812,0,0,Unrecoverable,2026-08-16 17:28:12
+TXN-10466,CUST-1124,Horizon Tech (CUST-1124),1910.23,Credit Card,Bank Decline,31,21,10,0.677,3,0,Unrecoverable,2026-08-31 05:41:50
+TXN-10467,CUST-1098,Nova Software (CUST-1098),175.17,ACH Direct Debit,Authentication Failed,91,67,24,0.736,0,0,Failed,2026-08-29 10:01:13
+TXN-10468,CUST-1003,Starlight Media (CUST-1003),702.84,Credit Card,Network Timeout,36,23,13,0.639,2,1,Recovered,2026-08-22 01:25:15
+TXN-10469,CUST-1057,Nexus Retail (CUST-1057),453.14,Digital Wallet,Bank Decline,25,19,6,0.76,2,0,Failed,2026-08-15 16:20:08
+TXN-10470,CUST-1101,Vanguard Systems (CUST-1101),1504.12,Credit Card,Bank Decline,51,31,20,0.608,1,0,Failed,2026-08-22 01:00:16
+TXN-10471,CUST-1034,Zenith Financial (CUST-1034),366.42,Digital Wallet,Expired Card,53,36,17,0.679,2,0,Unrecoverable,2026-08-22 17:09:00
+TXN-10472,CUST-1063,Rajesh Kumar (CUST-1063),1214.48,Credit Card,Insufficient Funds,84,82,2,0.976,3,0,Failed,2026-08-17 10:28:24
+TXN-10473,CUST-1083,CloudScale Networks (CUST-1083),61.51,UPI,Bank Decline,54,50,4,0.926,1,0,Failed,2026-08-08 08:00:13
+TXN-10474,CUST-1060,Aura Designs (CUST-1060),41.96,Credit Card,Insufficient Funds,88,58,30,0.659,0,0,Failed,2026-09-02 01:11:36
+TXN-10475,CUST-1074,Nova Software (CUST-1074),462.21,ACH Direct Debit,Insufficient Funds,105,70,35,0.667,1,1,Pending,2026-08-13 08:14:31
+TXN-10476,CUST-1140,Sophia Taylor (CUST-1140),1517.75,Debit Card,Insufficient Funds,79,67,12,0.848,1,0,Unrecoverable,2026-08-22 18:59:13
+TXN-10477,CUST-1066,Priya Sharma (CUST-1066),2099.46,UPI,Insufficient Funds,9,7,2,0.778,1,0,Failed,2026-08-08 23:38:32
+TXN-10478,CUST-1070,Fatima Al-Mansoor (CUST-1070),104.5,Credit Card,Network Timeout,22,15,7,0.682,3,1,Recovered,2026-08-22 05:50:27
+TXN-10479,CUST-1026,Nova Software (CUST-1026),137.02,Debit Card,Expired Card,54,44,10,0.815,2,0,Unrecoverable,2026-09-03 18:39:49
+TXN-10480,CUST-1006,Pulse Health (CUST-1006),565.02,ACH Direct Debit,Expired Card,62,37,25,0.597,0,1,Recovered,2026-08-17 15:33:50
+TXN-10481,CUST-1078,Pulse Health (CUST-1078),46.89,UPI,Authentication Failed,27,20,7,0.741,0,0,Failed,2026-08-13 18:06:40
+TXN-10482,CUST-1088,Elena Rostova (CUST-1088),445.62,Digital Wallet,Bank Decline,70,63,7,0.9,3,0,Failed,2026-08-14 04:45:05
+TXN-10483,CUST-1040,Elena Rostova (CUST-1040),290.57,Digital Wallet,Expired Card,42,40,2,0.952,0,1,Pending,2026-08-23 05:27:59
+TXN-10484,CUST-1052,Horizon Tech (CUST-1052),1939.76,Debit Card,Authentication Failed,41,26,15,0.634,0,0,Unrecoverable,2026-09-03 12:00:45
+TXN-10485,CUST-1082,Zenith Financial (CUST-1082),24.15,UPI,Expired Card,70,42,28,0.6,3,1,Recovered,2026-09-02 09:23:12
+TXN-10486,CUST-1106,Zenith Financial (CUST-1106),2016.66,UPI,Expired Card,12,11,1,0.917,0,1,Recovered,2026-08-07 18:33:16
+TXN-10487,CUST-1069,Carlos Mendez (CUST-1069),96.76,Credit Card,Network Timeout,106,89,17,0.84,0,1,Recovered,2026-08-11 00:14:03
+TXN-10488,CUST-1121,Apex Logistics (CUST-1121),318.28,ACH Direct Debit,Expired Card,118,75,43,0.636,0,1,Recovered,2026-08-19 05:52:33
+TXN-10489,CUST-1004,Horizon Tech (CUST-1004),1022.85,Debit Card,Expired Card,21,18,3,0.857,0,1,Recovered,2026-09-02 00:01:28
+TXN-10490,CUST-1126,Pulse Health (CUST-1126),540.05,ACH Direct Debit,Insufficient Funds,17,13,4,0.765,2,0,Failed,2026-08-28 14:14:11
+TXN-10491,CUST-1101,Vanguard Systems (CUST-1101),1728.23,Credit Card,Bank Decline,51,31,20,0.608,0,0,Failed,2026-09-02 07:41:36
+TXN-10492,CUST-1063,Rajesh Kumar (CUST-1063),1996.82,ACH Direct Debit,Bank Decline,84,82,2,0.976,3,0,Failed,2026-08-15 17:20:27
+TXN-10493,CUST-1102,Pulse Health (CUST-1102),134.39,ACH Direct Debit,Network Timeout,78,53,25,0.679,2,0,Unrecoverable,2026-08-22 11:54:35
+TXN-10494,CUST-1037,Alex Mercer (CUST-1037),771.84,Credit Card,Expired Card,85,71,14,0.835,2,0,Unrecoverable,2026-08-23 09:06:17
+TXN-10495,CUST-1101,Vanguard Systems (CUST-1101),939.87,Debit Card,Authentication Failed,51,31,20,0.608,0,1,Pending,2026-08-26 10:40:00
+TXN-10496,CUST-1042,Priya Sharma (CUST-1042),205.59,UPI,Insufficient Funds,36,30,6,0.833,2,0,Unrecoverable,2026-08-30 17:15:35
+TXN-10497,CUST-1131,CloudScale Networks (CUST-1131),97.63,Debit Card,Network Timeout,116,80,36,0.69,2,0,Failed,2026-08-11 20:25:16
+TXN-10498,CUST-1038,Sarah Jenkins (CUST-1038),470.42,ACH Direct Debit,Network Timeout,76,66,10,0.868,3,1,Recovered,2026-09-04 19:12:15
+TXN-10499,CUST-1001,Apex Logistics (CUST-1001),263.9,Digital Wallet,Insufficient Funds,89,57,32,0.64,2,0,Failed,2026-08-13 11:50:27
+TXN-10500,CUST-1122,Nova Software (CUST-1122),76.25,Debit Card,Bank Decline,32,21,11,0.656,1,0,Unrecoverable,2026-08-31 14:10:45
+TXN-10501,CUST-1054,Pulse Health (CUST-1054),21.6,Debit Card,Insufficient Funds,41,36,5,0.878,3,0,Unrecoverable,2026-08-15 22:34:11
+TXN-10502,CUST-1023,Liam O'Connor (CUST-1023),938.67,UPI,Bank Decline,56,35,21,0.625,3,0,Unrecoverable,2026-08-24 03:44:07
+TXN-10503,CUST-1144,Yuki Tanaka (CUST-1144),38.95,Credit Card,Network Timeout,77,47,30,0.61,1,1,Recovered,2026-08-31 14:16:56
+TXN-10504,CUST-1110,Sarah Jenkins (CUST-1110),128.85,UPI,Network Timeout,100,95,5,0.95,2,1,Recovered,2026-08-27 20:41:20
+TXN-10505,CUST-1015,Rajesh Kumar (CUST-1015),29.76,ACH Direct Debit,Bank Decline,62,45,17,0.726,3,0,Unrecoverable,2026-09-01 10:06:22
+TXN-10506,CUST-1067,David Miller (CUST-1067),85.93,Digital Wallet,Bank Decline,22,18,4,0.818,1,0,Unrecoverable,2026-08-21 22:03:55
+TXN-10507,CUST-1047,Liam O'Connor (CUST-1047),134.29,Credit Card,Insufficient Funds,35,33,2,0.943,0,1,Recovered,2026-08-29 02:40:08
+TXN-10508,CUST-1054,Pulse Health (CUST-1054),599.54,UPI,Bank Decline,41,36,5,0.878,3,0,Unrecoverable,2026-08-13 00:32:47
+TXN-10509,CUST-1073,Apex Logistics (CUST-1073),1170.54,UPI,Insufficient Funds,41,39,2,0.951,0,0,Failed,2026-08-18 20:50:50
+TXN-10510,CUST-1146,Nova Software (CUST-1146),163.1,UPI,Authentication Failed,82,64,18,0.78,1,0,Unrecoverable,2026-08-11 01:26:04
+TXN-10511,CUST-1040,Elena Rostova (CUST-1040),551.43,ACH Direct Debit,Authentication Failed,42,40,2,0.952,3,1,Pending,2026-08-15 23:13:09
+TXN-10512,CUST-1081,Nexus Retail (CUST-1081),158.42,UPI,Insufficient Funds,8,6,2,0.75,0,1,Recovered,2026-08-17 03:52:53
+TXN-10513,CUST-1097,Apex Logistics (CUST-1097),529.08,Debit Card,Bank Decline,59,57,2,0.966,0,0,Failed,2026-08-28 03:29:00
+TXN-10514,CUST-1081,Nexus Retail (CUST-1081),110.83,UPI,Authentication Failed,8,6,2,0.75,1,1,Recovered,2026-08-12 05:42:03
+TXN-10515,CUST-1096,Yuki Tanaka (CUST-1096),500.01,Digital Wallet,Insufficient Funds,33,28,5,0.848,1,0,Failed,2026-08-12 16:38:39
+TXN-10516,CUST-1124,Horizon Tech (CUST-1124),113.88,Credit Card,Bank Decline,31,21,10,0.677,3,0,Failed,2026-08-28 17:22:57
+TXN-10517,CUST-1118,Fatima Al-Mansoor (CUST-1118),539.16,Credit Card,Bank Decline,91,88,3,0.967,0,0,Failed,2026-08-10 01:55:33
+TXN-10518,CUST-1080,Quantum Labs (CUST-1080),18.03,UPI,Expired Card,107,101,6,0.944,0,1,Pending,2026-08-16 13:28:46
+TXN-10519,CUST-1113,Marcus Chen (CUST-1113),105.6,Credit Card,Bank Decline,111,83,28,0.748,2,0,Failed,2026-08-23 06:18:44
+TXN-10520,CUST-1141,Carlos Mendez (CUST-1141),213.7,Digital Wallet,Expired Card,70,46,24,0.657,0,1,Pending,2026-09-02 18:06:24
+TXN-10521,CUST-1139,David Miller (CUST-1139),1494.4,Credit Card,Insufficient Funds,101,98,3,0.97,1,1,Recovered,2026-08-18 17:52:18
+TXN-10522,CUST-1115,David Miller (CUST-1115),2153.14,Digital Wallet,Insufficient Funds,63,46,17,0.73,1,0,Failed,2026-08-31 08:56:40
+TXN-10523,CUST-1120,Yuki Tanaka (CUST-1120),289.68,ACH Direct Debit,Expired Card,101,73,28,0.723,0,1,Pending,2026-08-14 17:29:23
+TXN-10524,CUST-1094,Fatima Al-Mansoor (CUST-1094),464.83,ACH Direct Debit,Authentication Failed,35,33,2,0.943,0,1,Recovered,2026-08-17 12:43:45
+TXN-10525,CUST-1119,Liam O'Connor (CUST-1119),1262.37,Debit Card,Bank Decline,20,12,8,0.6,0,0,Unrecoverable,2026-08-30 21:21:26
+TXN-10526,CUST-1084,Aura Designs (CUST-1084),181.92,ACH Direct Debit,Bank Decline,114,103,11,0.904,1,0,Failed,2026-08-23 10:12:54
+TXN-10527,CUST-1124,Horizon Tech (CUST-1124),2146.44,ACH Direct Debit,Authentication Failed,31,21,10,0.677,2,0,Unrecoverable,2026-08-27 19:28:03
+TXN-10528,CUST-1045,Carlos Mendez (CUST-1045),2368.64,ACH Direct Debit,Insufficient Funds,12,10,2,0.833,2,0,Failed,2026-08-23 15:21:17
+TXN-10529,CUST-1114,Priya Sharma (CUST-1114),38.78,Digital Wallet,Authentication Failed,20,12,8,0.6,1,1,Pending,2026-08-08 19:57:32
+TXN-10530,CUST-1056,Quantum Labs (CUST-1056),2316.19,Credit Card,Expired Card,59,43,16,0.729,3,1,Pending,2026-08-15 17:34:26
+TXN-10531,CUST-1148,Horizon Tech (CUST-1148),242.55,Digital Wallet,Network Timeout,15,14,1,0.933,1,1,Recovered,2026-09-05 16:42:00
+TXN-10532,CUST-1150,Pulse Health (CUST-1150),16.1,UPI,Insufficient Funds,16,13,3,0.812,1,0,Failed,2026-08-07 00:17:56
+TXN-10533,CUST-1144,Yuki Tanaka (CUST-1144),125.8,Debit Card,Authentication Failed,77,47,30,0.61,3,0,Unrecoverable,2026-08-16 12:44:36
+TXN-10534,CUST-1098,Nova Software (CUST-1098),69.81,ACH Direct Debit,Expired Card,91,67,24,0.736,0,1,Recovered,2026-09-01 04:27:53
+TXN-10535,CUST-1040,Elena Rostova (CUST-1040),53.94,Credit Card,Insufficient Funds,42,40,2,0.952,0,0,Failed,2026-08-26 17:23:56
+TXN-10536,CUST-1035,CloudScale Networks (CUST-1035),439.01,Digital Wallet,Authentication Failed,42,36,6,0.857,2,1,Pending,2026-08-19 17:03:41
+TXN-10537,CUST-1116,Sophia Taylor (CUST-1116),66.94,Digital Wallet,Authentication Failed,60,46,14,0.767,3,1,Pending,2026-08-15 01:33:07
+TXN-10538,CUST-1140,Sophia Taylor (CUST-1140),165.06,UPI,Insufficient Funds,79,67,12,0.848,2,0,Unrecoverable,2026-08-09 09:20:14
+TXN-10539,CUST-1135,Rajesh Kumar (CUST-1135),592.65,Digital Wallet,Insufficient Funds,8,7,1,0.875,2,0,Failed,2026-08-14 08:15:30
+TXN-10540,CUST-1020,Sophia Taylor (CUST-1020),1701.29,Credit Card,Network Timeout,85,59,26,0.694,2,0,Failed,2026-08-20 14:35:48
+TXN-10541,CUST-1121,Apex Logistics (CUST-1121),299.18,UPI,Expired Card,118,75,43,0.636,0,0,Unrecoverable,2026-08-29 11:16:40
+TXN-10542,CUST-1145,Apex Logistics (CUST-1145),1698.47,Credit Card,Network Timeout,48,29,19,0.604,3,0,Failed,2026-08-21 12:43:08
+TXN-10543,CUST-1033,Nexus Retail (CUST-1033),83.26,Digital Wallet,Network Timeout,54,35,19,0.648,1,0,Failed,2026-08-29 05:31:14
+TXN-10544,CUST-1045,Carlos Mendez (CUST-1045),482.54,Debit Card,Network Timeout,12,10,2,0.833,3,1,Recovered,2026-08-30 23:14:22
+TXN-10545,CUST-1009,Nexus Retail (CUST-1009),61.28,ACH Direct Debit,Authentication Failed,79,53,26,0.671,1,1,Recovered,2026-08-28 18:24:40
+TXN-10546,CUST-1043,David Miller (CUST-1043),1255.64,UPI,Insufficient Funds,115,102,13,0.887,0,1,Recovered,2026-08-21 06:34:43
+TXN-10547,CUST-1122,Nova Software (CUST-1122),488.59,ACH Direct Debit,Authentication Failed,32,21,11,0.656,1,1,Recovered,2026-08-07 08:13:59
+TXN-10548,CUST-1115,David Miller (CUST-1115),66.57,Credit Card,Bank Decline,63,46,17,0.73,3,0,Failed,2026-08-25 07:14:29
+TXN-10549,CUST-1070,Fatima Al-Mansoor (CUST-1070),786.73,Digital Wallet,Authentication Failed,22,15,7,0.682,1,0,Unrecoverable,2026-08-14 05:47:08
+TXN-10550,CUST-1050,Nova Software (CUST-1050),454.97,Digital Wallet,Insufficient Funds,71,53,18,0.746,3,1,Recovered,2026-08-07 08:18:14
+TXN-10551,CUST-1026,Nova Software (CUST-1026),1267.88,UPI,Network Timeout,54,44,10,0.815,0,1,Pending,2026-08-09 17:53:22
+TXN-10552,CUST-1056,Quantum Labs (CUST-1056),143.32,Credit Card,Bank Decline,59,43,16,0.729,0,0,Unrecoverable,2026-08-23 23:15:40
+TXN-10553,CUST-1048,Yuki Tanaka (CUST-1048),463.04,Credit Card,Authentication Failed,80,74,6,0.925,1,0,Unrecoverable,2026-09-03 02:08:01
+TXN-10554,CUST-1083,CloudScale Networks (CUST-1083),49.74,ACH Direct Debit,Authentication Failed,54,50,4,0.926,1,0,Failed,2026-09-04 15:43:40
+TXN-10555,CUST-1068,Sophia Taylor (CUST-1068),39.02,Digital Wallet,Authentication Failed,76,67,9,0.882,0,1,Recovered,2026-08-11 07:16:48
+TXN-10556,CUST-1111,Rajesh Kumar (CUST-1111),2333.96,UPI,Insufficient Funds,81,66,15,0.815,0,1,Pending,2026-08-28 19:31:27
+TXN-10557,CUST-1115,David Miller (CUST-1115),17.53,Credit Card,Authentication Failed,63,46,17,0.73,1,1,Recovered,2026-09-03 03:00:59
+TXN-10558,CUST-1148,Horizon Tech (CUST-1148),468.42,ACH Direct Debit,Authentication Failed,15,14,1,0.933,3,0,Failed,2026-08-23 04:35:04
+TXN-10559,CUST-1001,Apex Logistics (CUST-1001),66.9,Digital Wallet,Bank Decline,89,57,32,0.64,1,0,Failed,2026-08-19 00:08:04
+TXN-10560,CUST-1024,Yuki Tanaka (CUST-1024),534.0,UPI,Expired Card,45,41,4,0.911,0,1,Recovered,2026-08-26 19:25:13
+TXN-10561,CUST-1077,Vanguard Systems (CUST-1077),553.41,ACH Direct Debit,Insufficient Funds,72,59,13,0.819,3,0,Failed,2026-08-11 04:27:02
+TXN-10562,CUST-1050,Nova Software (CUST-1050),598.37,Credit Card,Bank Decline,71,53,18,0.746,3,0,Unrecoverable,2026-09-04 22:27:30
+TXN-10563,CUST-1116,Sophia Taylor (CUST-1116),157.39,Credit Card,Authentication Failed,60,46,14,0.767,0,1,Pending,2026-08-27 00:09:34
+TXN-10564,CUST-1118,Fatima Al-Mansoor (CUST-1118),1619.47,Digital Wallet,Expired Card,91,88,3,0.967,0,1,Recovered,2026-08-21 15:41:45
+TXN-10565,CUST-1005,Vanguard Systems (CUST-1005),687.02,Debit Card,Insufficient Funds,77,48,29,0.623,0,0,Failed,2026-08-31 14:37:26
+TXN-10566,CUST-1025,Apex Logistics (CUST-1025),76.58,Credit Card,Authentication Failed,87,81,6,0.931,2,0,Failed,2026-08-08 21:07:51
+TXN-10567,CUST-1052,Horizon Tech (CUST-1052),2466.17,ACH Direct Debit,Network Timeout,41,26,15,0.634,0,0,Unrecoverable,2026-08-23 08:43:43
+TXN-10568,CUST-1083,CloudScale Networks (CUST-1083),2052.03,Debit Card,Network Timeout,54,50,4,0.926,0,1,Recovered,2026-08-29 17:07:40
+TXN-10569,CUST-1044,Sophia Taylor (CUST-1044),1433.46,Credit Card,Expired Card,15,10,5,0.667,0,0,Unrecoverable,2026-08-25 08:38:58
+TXN-10570,CUST-1041,Marcus Chen (CUST-1041),17.11,Credit Card,Bank Decline,89,76,13,0.854,1,0,Failed,2026-08-27 18:11:23
+TXN-10571,CUST-1053,Vanguard Systems (CUST-1053),34.32,Debit Card,Bank Decline,103,83,20,0.806,3,1,Recovered,2026-08-28 12:04:29
+TXN-10572,CUST-1023,Liam O'Connor (CUST-1023),99.67,Digital Wallet,Expired Card,56,35,21,0.625,0,1,Pending,2026-09-05 06:58:54
+TXN-10573,CUST-1093,Carlos Mendez (CUST-1093),594.05,Debit Card,Network Timeout,119,98,21,0.824,0,1,Recovered,2026-08-27 13:04:02
+TXN-10574,CUST-1122,Nova Software (CUST-1122),82.16,UPI,Network Timeout,32,21,11,0.656,0,1,Recovered,2026-08-25 11:48:06
+TXN-10575,CUST-1117,Carlos Mendez (CUST-1117),20.85,Debit Card,Insufficient Funds,101,62,39,0.614,1,0,Failed,2026-09-02 20:08:55
+TXN-10576,CUST-1114,Priya Sharma (CUST-1114),977.63,UPI,Expired Card,20,12,8,0.6,0,1,Recovered,2026-08-14 02:25:01
+TXN-10577,CUST-1106,Zenith Financial (CUST-1106),318.99,Digital Wallet,Authentication Failed,12,11,1,0.917,0,0,Failed,2026-08-13 11:19:50
+TXN-10578,CUST-1117,Carlos Mendez (CUST-1117),39.04,UPI,Network Timeout,101,62,39,0.614,0,1,Recovered,2026-08-27 18:05:00
+TXN-10579,CUST-1016,Elena Rostova (CUST-1016),200.0,Debit Card,Network Timeout,27,18,9,0.667,0,0,Unrecoverable,2026-08-11 16:34:45
+TXN-10580,CUST-1044,Sophia Taylor (CUST-1044),398.74,Digital Wallet,Authentication Failed,15,10,5,0.667,0,1,Recovered,2026-08-15 08:41:41
+TXN-10581,CUST-1110,Sarah Jenkins (CUST-1110),1221.86,Debit Card,Bank Decline,100,95,5,0.95,0,0,Failed,2026-08-19 12:29:15
+TXN-10582,CUST-1012,Aura Designs (CUST-1012),20.41,ACH Direct Debit,Bank Decline,83,58,25,0.699,1,0,Unrecoverable,2026-08-31 15:01:17
+TXN-10583,CUST-1116,Sophia Taylor (CUST-1116),2030.85,ACH Direct Debit,Expired Card,60,46,14,0.767,0,1,Recovered,2026-08-26 09:59:33
+TXN-10584,CUST-1024,Yuki Tanaka (CUST-1024),451.07,Digital Wallet,Bank Decline,45,41,4,0.911,0,0,Failed,2026-08-30 03:24:46
+TXN-10585,CUST-1104,Quantum Labs (CUST-1104),1790.94,Credit Card,Insufficient Funds,98,82,16,0.837,1,0,Failed,2026-08-22 21:57:16
+TXN-10586,CUST-1076,Horizon Tech (CUST-1076),2397.58,Digital Wallet,Expired Card,46,42,4,0.913,3,1,Recovered,2026-08-29 01:26:22
+TXN-10587,CUST-1015,Rajesh Kumar (CUST-1015),84.49,Credit Card,Authentication Failed,62,45,17,0.726,1,1,Recovered,2026-08-17 22:54:10
+TXN-10588,CUST-1045,Carlos Mendez (CUST-1045),102.5,Debit Card,Network Timeout,12,10,2,0.833,0,1,Pending,2026-08-21 08:12:25
+TXN-10589,CUST-1149,Vanguard Systems (CUST-1149),132.6,UPI,Network Timeout,18,16,2,0.889,1,1,Recovered,2026-08-15 07:14:11
+TXN-10590,CUST-1017,Marcus Chen (CUST-1017),65.33,ACH Direct Debit,Bank Decline,105,76,29,0.724,3,0,Failed,2026-08-20 13:06:58
+TXN-10591,CUST-1095,Liam O'Connor (CUST-1095),122.99,Debit Card,Authentication Failed,104,91,13,0.875,0,1,Recovered,2026-08-15 15:19:12
+TXN-10592,CUST-1020,Sophia Taylor (CUST-1020),274.17,Debit Card,Expired Card,85,59,26,0.694,2,0,Failed,2026-08-15 18:46:25
+TXN-10593,CUST-1139,David Miller (CUST-1139),1398.25,Credit Card,Network Timeout,101,98,3,0.97,0,1,Recovered,2026-09-01 00:51:14
+TXN-10594,CUST-1134,Sarah Jenkins (CUST-1134),1251.31,UPI,Authentication Failed,15,9,6,0.6,2,0,Unrecoverable,2026-09-01 05:51:55
+TXN-10595,CUST-1114,Priya Sharma (CUST-1114),405.26,Debit Card,Network Timeout,20,12,8,0.6,0,1,Recovered,2026-08-30 01:54:41
+TXN-10596,CUST-1013,Alex Mercer (CUST-1013),2416.81,Debit Card,Bank Decline,119,71,48,0.597,1,0,Failed,2026-09-01 04:00:38
+TXN-10597,CUST-1040,Elena Rostova (CUST-1040),2488.17,Debit Card,Authentication Failed,42,40,2,0.952,1,1,Recovered,2026-08-23 20:40:57
+TXN-10598,CUST-1009,Nexus Retail (CUST-1009),590.11,Digital Wallet,Expired Card,79,53,26,0.671,2,1,Recovered,2026-08-19 02:58:36
+TXN-10599,CUST-1128,Quantum Labs (CUST-1128),118.75,Credit Card,Bank Decline,20,12,8,0.6,2,0,Unrecoverable,2026-08-15 20:29:33
+TXN-10600,CUST-1075,Starlight Media (CUST-1075),2488.72,Debit Card,Bank Decline,21,19,2,0.905,3,0,Failed,2026-08-17 03:32:40
+TXN-10601,CUST-1029,Vanguard Systems (CUST-1029),864.9,Credit Card,Network Timeout,45,43,2,0.956,0,1,Recovered,2026-08-20 08:47:31
+TXN-10602,CUST-1024,Yuki Tanaka (CUST-1024),970.78,Debit Card,Network Timeout,45,41,4,0.911,0,1,Pending,2026-09-01 11:17:48
+TXN-10603,CUST-1023,Liam O'Connor (CUST-1023),1531.88,Digital Wallet,Bank Decline,56,35,21,0.625,0,0,Failed,2026-08-18 21:56:00
+TXN-10604,CUST-1110,Sarah Jenkins (CUST-1110),317.77,UPI,Authentication Failed,100,95,5,0.95,2,1,Pending,2026-09-02 14:54:40
+TXN-10605,CUST-1107,CloudScale Networks (CUST-1107),279.89,ACH Direct Debit,Expired Card,17,13,4,0.765,2,0,Failed,2026-08-13 05:17:46
+TXN-10606,CUST-1122,Nova Software (CUST-1122),1237.29,ACH Direct Debit,Insufficient Funds,32,21,11,0.656,0,0,Failed,2026-08-19 10:08:30
+TXN-10607,CUST-1143,Liam O'Connor (CUST-1143),77.39,Debit Card,Authentication Failed,15,12,3,0.8,1,1,Recovered,2026-08-31 16:06:26
+TXN-10608,CUST-1078,Pulse Health (CUST-1078),286.76,Debit Card,Insufficient Funds,27,20,7,0.741,0,1,Recovered,2026-09-04 16:01:51
+TXN-10609,CUST-1121,Apex Logistics (CUST-1121),31.76,ACH Direct Debit,Expired Card,118,75,43,0.636,0,1,Recovered,2026-08-21 18:41:16
+TXN-10610,CUST-1018,Priya Sharma (CUST-1018),312.79,UPI,Authentication Failed,19,14,5,0.737,3,0,Failed,2026-08-22 08:42:37
+TXN-10611,CUST-1148,Horizon Tech (CUST-1148),17.37,UPI,Authentication Failed,15,14,1,0.933,3,1,Recovered,2026-08-08 13:46:17
+TXN-10612,CUST-1093,Carlos Mendez (CUST-1093),560.45,UPI,Bank Decline,119,98,21,0.824,3,0,Unrecoverable,2026-08-12 19:14:18
+TXN-10613,CUST-1047,Liam O'Connor (CUST-1047),419.44,UPI,Network Timeout,35,33,2,0.943,1,1,Pending,2026-08-17 20:42:29
+TXN-10614,CUST-1137,Marcus Chen (CUST-1137),624.51,UPI,Network Timeout,108,83,25,0.769,1,1,Recovered,2026-08-10 01:25:57
+TXN-10615,CUST-1040,Elena Rostova (CUST-1040),2110.7,Digital Wallet,Bank Decline,42,40,2,0.952,2,0,Unrecoverable,2026-08-29 16:13:57
+TXN-10616,CUST-1030,Pulse Health (CUST-1030),71.34,Credit Card,Authentication Failed,117,80,37,0.684,1,1,Recovered,2026-08-11 03:46:54
+TXN-10617,CUST-1114,Priya Sharma (CUST-1114),418.94,Debit Card,Network Timeout,20,12,8,0.6,0,1,Recovered,2026-08-13 15:47:22
+TXN-10618,CUST-1037,Alex Mercer (CUST-1037),107.89,ACH Direct Debit,Insufficient Funds,85,71,14,0.835,0,1,Recovered,2026-08-29 16:58:20
+TXN-10619,CUST-1011,CloudScale Networks (CUST-1011),1853.6,Credit Card,Authentication Failed,61,41,20,0.672,0,0,Failed,2026-08-08 23:23:23
+TXN-10620,CUST-1003,Starlight Media (CUST-1003),116.86,Digital Wallet,Expired Card,36,23,13,0.639,0,0,Failed,2026-08-09 17:03:10
+TXN-10621,CUST-1072,Yuki Tanaka (CUST-1072),905.06,Digital Wallet,Expired Card,100,93,7,0.93,2,0,Failed,2026-08-31 13:47:38
+TXN-10622,CUST-1004,Horizon Tech (CUST-1004),86.39,Digital Wallet,Insufficient Funds,21,18,3,0.857,3,0,Failed,2026-09-03 14:26:07
+TXN-10623,CUST-1122,Nova Software (CUST-1122),64.47,Debit Card,Network Timeout,32,21,11,0.656,1,1,Pending,2026-08-13 19:31:51
+TXN-10624,CUST-1029,Vanguard Systems (CUST-1029),1485.21,Debit Card,Authentication Failed,45,43,2,0.956,1,1,Pending,2026-08-28 15:37:48
+TXN-10625,CUST-1022,Fatima Al-Mansoor (CUST-1022),1138.86,UPI,Authentication Failed,76,49,27,0.645,0,1,Recovered,2026-09-05 12:51:52
+TXN-10626,CUST-1110,Sarah Jenkins (CUST-1110),181.32,UPI,Expired Card,100,95,5,0.95,0,0,Failed,2026-08-27 03:36:02
+TXN-10627,CUST-1102,Pulse Health (CUST-1102),74.14,ACH Direct Debit,Authentication Failed,78,53,25,0.679,3,0,Failed,2026-08-29 05:31:22
+TXN-10628,CUST-1044,Sophia Taylor (CUST-1044),1243.4,ACH Direct Debit,Insufficient Funds,15,10,5,0.667,0,0,Unrecoverable,2026-08-21 23:03:03
+TXN-10629,CUST-1149,Vanguard Systems (CUST-1149),490.34,UPI,Authentication Failed,18,16,2,0.889,3,0,Failed,2026-09-05 14:42:30
+TXN-10630,CUST-1131,CloudScale Networks (CUST-1131),495.6,ACH Direct Debit,Authentication Failed,116,80,36,0.69,0,1,Recovered,2026-08-07 21:05:33
+TXN-10631,CUST-1014,Sarah Jenkins (CUST-1014),127.09,ACH Direct Debit,Bank Decline,111,73,38,0.658,3,0,Failed,2026-08-25 15:30:28
+TXN-10632,CUST-1025,Apex Logistics (CUST-1025),447.49,ACH Direct Debit,Expired Card,87,81,6,0.931,1,0,Failed,2026-08-22 03:08:38
+TXN-10633,CUST-1139,David Miller (CUST-1139),61.39,ACH Direct Debit,Insufficient Funds,101,98,3,0.97,1,0,Failed,2026-08-20 06:19:56
+TXN-10634,CUST-1010,Zenith Financial (CUST-1010),400.5,Debit Card,Authentication Failed,91,78,13,0.857,1,1,Pending,2026-08-18 15:49:47
+TXN-10635,CUST-1029,Vanguard Systems (CUST-1029),1652.19,Digital Wallet,Authentication Failed,45,43,2,0.956,1,1,Recovered,2026-08-22 04:30:18
+TXN-10636,CUST-1101,Vanguard Systems (CUST-1101),1317.82,UPI,Network Timeout,51,31,20,0.608,1,1,Pending,2026-08-08 08:10:37
+TXN-10637,CUST-1094,Fatima Al-Mansoor (CUST-1094),651.11,UPI,Authentication Failed,35,33,2,0.943,0,1,Recovered,2026-08-19 08:16:52
+TXN-10638,CUST-1015,Rajesh Kumar (CUST-1015),1831.36,Credit Card,Insufficient Funds,62,45,17,0.726,1,1,Recovered,2026-08-07 13:53:04
+TXN-10639,CUST-1084,Aura Designs (CUST-1084),1402.7,ACH Direct Debit,Network Timeout,114,103,11,0.904,0,1,Pending,2026-08-07 15:42:07
+TXN-10640,CUST-1082,Zenith Financial (CUST-1082),325.64,Credit Card,Expired Card,70,42,28,0.6,1,0,Unrecoverable,2026-08-17 04:09:36
+TXN-10641,CUST-1077,Vanguard Systems (CUST-1077),64.05,Digital Wallet,Expired Card,72,59,13,0.819,1,1,Recovered,2026-09-05 20:58:32
+TXN-10642,CUST-1103,ECHO Commerce (CUST-1103),2420.09,Digital Wallet,Insufficient Funds,36,21,15,0.583,2,0,Failed,2026-08-23 23:31:12
+TXN-10643,CUST-1136,Elena Rostova (CUST-1136),2111.74,UPI,Bank Decline,41,39,2,0.951,1,0,Unrecoverable,2026-08-16 09:18:21
+TXN-10644,CUST-1107,CloudScale Networks (CUST-1107),1461.13,Debit Card,Insufficient Funds,17,13,4,0.765,3,0,Failed,2026-08-24 07:01:08
+TXN-10645,CUST-1055,ECHO Commerce (CUST-1055),520.76,Digital Wallet,Bank Decline,62,58,4,0.935,1,0,Unrecoverable,2026-08-25 18:57:28
+TXN-10646,CUST-1134,Sarah Jenkins (CUST-1134),1056.71,UPI,Authentication Failed,15,9,6,0.6,1,1,Recovered,2026-08-26 00:07:10
+TXN-10647,CUST-1106,Zenith Financial (CUST-1106),905.11,Digital Wallet,Expired Card,12,11,1,0.917,1,1,Recovered,2026-08-12 17:52:16
+TXN-10648,CUST-1063,Rajesh Kumar (CUST-1063),289.74,ACH Direct Debit,Insufficient Funds,84,82,2,0.976,0,1,Recovered,2026-08-07 20:40:26
+TXN-10649,CUST-1072,Yuki Tanaka (CUST-1072),2219.79,ACH Direct Debit,Insufficient Funds,100,93,7,0.93,0,0,Failed,2026-08-16 09:42:11
+TXN-10650,CUST-1077,Vanguard Systems (CUST-1077),555.26,Credit Card,Authentication Failed,72,59,13,0.819,3,0,Failed,2026-08-10 08:16:59
+TXN-10651,CUST-1129,Nexus Retail (CUST-1129),2175.07,UPI,Authentication Failed,77,70,7,0.909,0,1,Recovered,2026-08-30 04:23:21
+TXN-10652,CUST-1081,Nexus Retail (CUST-1081),1340.91,Debit Card,Authentication Failed,8,6,2,0.75,0,1,Recovered,2026-08-13 09:51:00
+TXN-10653,CUST-1071,Liam O'Connor (CUST-1071),264.44,Digital Wallet,Network Timeout,28,21,7,0.75,3,0,Failed,2026-08-23 08:37:41
+TXN-10654,CUST-1122,Nova Software (CUST-1122),107.17,UPI,Authentication Failed,32,21,11,0.656,3,0,Failed,2026-08-07 14:51:54
+TXN-10655,CUST-1009,Nexus Retail (CUST-1009),2387.61,Debit Card,Network Timeout,79,53,26,0.671,2,1,Pending,2026-09-04 17:48:00
+TXN-10656,CUST-1093,Carlos Mendez (CUST-1093),136.93,ACH Direct Debit,Authentication Failed,119,98,21,0.824,0,0,Failed,2026-09-03 19:29:49
+TXN-10657,CUST-1066,Priya Sharma (CUST-1066),571.35,Debit Card,Expired Card,9,7,2,0.778,1,0,Unrecoverable,2026-08-19 04:13:11
+TXN-10658,CUST-1009,Nexus Retail (CUST-1009),186.04,ACH Direct Debit,Authentication Failed,79,53,26,0.671,1,0,Failed,2026-08-31 17:15:37
+TXN-10659,CUST-1067,David Miller (CUST-1067),1744.02,UPI,Authentication Failed,22,18,4,0.818,3,1,Recovered,2026-08-26 05:28:48
+TXN-10660,CUST-1048,Yuki Tanaka (CUST-1048),505.96,Debit Card,Network Timeout,80,74,6,0.925,1,1,Recovered,2026-08-11 17:19:26
+TXN-10661,CUST-1133,Alex Mercer (CUST-1133),111.33,Digital Wallet,Authentication Failed,35,32,3,0.914,1,1,Pending,2026-08-10 23:49:07
+TXN-10662,CUST-1045,Carlos Mendez (CUST-1045),107.81,Credit Card,Authentication Failed,12,10,2,0.833,1,1,Recovered,2026-09-04 07:55:01
+TXN-10663,CUST-1147,Starlight Media (CUST-1147),2353.91,Digital Wallet,Expired Card,117,93,24,0.795,0,0,Failed,2026-08-14 20:10:32
+TXN-10664,CUST-1044,Sophia Taylor (CUST-1044),21.72,Credit Card,Network Timeout,15,10,5,0.667,0,0,Failed,2026-08-07 09:51:16
+TXN-10665,CUST-1135,Rajesh Kumar (CUST-1135),1462.04,ACH Direct Debit,Insufficient Funds,8,7,1,0.875,0,0,Failed,2026-09-04 08:50:58
+TXN-10666,CUST-1069,Carlos Mendez (CUST-1069),53.87,Digital Wallet,Expired Card,106,89,17,0.84,1,0,Failed,2026-08-19 12:53:24
+TXN-10667,CUST-1105,Nexus Retail (CUST-1105),121.98,Digital Wallet,Authentication Failed,37,23,14,0.622,0,1,Pending,2026-08-26 09:42:05
+TXN-10668,CUST-1022,Fatima Al-Mansoor (CUST-1022),1214.17,ACH Direct Debit,Expired Card,76,49,27,0.645,3,0,Failed,2026-08-29 01:41:12
+TXN-10669,CUST-1066,Priya Sharma (CUST-1066),24.86,ACH Direct Debit,Network Timeout,9,7,2,0.778,2,0,Unrecoverable,2026-08-28 06:34:45
+TXN-10670,CUST-1012,Aura Designs (CUST-1012),377.04,UPI,Expired Card,83,58,25,0.699,2,1,Recovered,2026-08-14 19:06:06
+TXN-10671,CUST-1129,Nexus Retail (CUST-1129),81.53,UPI,Bank Decline,77,70,7,0.909,1,1,Recovered,2026-08-16 09:14:45
+TXN-10672,CUST-1033,Nexus Retail (CUST-1033),588.02,ACH Direct Debit,Network Timeout,54,35,19,0.648,1,1,Recovered,2026-08-22 11:54:43
+TXN-10673,CUST-1112,Elena Rostova (CUST-1112),135.51,Digital Wallet,Authentication Failed,39,35,4,0.897,0,1,Recovered,2026-08-13 21:11:29
+TXN-10674,CUST-1010,Zenith Financial (CUST-1010),78.48,ACH Direct Debit,Insufficient Funds,91,78,13,0.857,1,0,Unrecoverable,2026-08-23 19:30:25
+TXN-10675,CUST-1118,Fatima Al-Mansoor (CUST-1118),81.55,UPI,Insufficient Funds,91,88,3,0.967,0,0,Failed,2026-09-01 00:51:30
+TXN-10676,CUST-1131,CloudScale Networks (CUST-1131),126.05,Digital Wallet,Insufficient Funds,116,80,36,0.69,2,0,Failed,2026-08-19 11:30:48
+TXN-10677,CUST-1020,Sophia Taylor (CUST-1020),374.15,Credit Card,Network Timeout,85,59,26,0.694,3,0,Failed,2026-08-18 19:29:38
+TXN-10678,CUST-1028,Horizon Tech (CUST-1028),754.02,ACH Direct Debit,Authentication Failed,92,63,29,0.685,3,0,Unrecoverable,2026-08-26 17:27:22
+TXN-10679,CUST-1085,Alex Mercer (CUST-1085),445.28,Digital Wallet,Expired Card,38,23,15,0.605,0,0,Unrecoverable,2026-08-15 11:25:07
+TXN-10680,CUST-1015,Rajesh Kumar (CUST-1015),115.41,ACH Direct Debit,Network Timeout,62,45,17,0.726,0,1,Recovered,2026-08-09 15:54:26
+TXN-10681,CUST-1054,Pulse Health (CUST-1054),1141.38,Debit Card,Insufficient Funds,41,36,5,0.878,1,0,Failed,2026-08-29 01:31:55
+TXN-10682,CUST-1080,Quantum Labs (CUST-1080),137.0,UPI,Bank Decline,107,101,6,0.944,0,0,Failed,2026-08-21 06:43:42
+TXN-10683,CUST-1145,Apex Logistics (CUST-1145),190.6,Digital Wallet,Expired Card,48,29,19,0.604,1,0,Failed,2026-08-08 04:48:26
+TXN-10684,CUST-1088,Elena Rostova (CUST-1088),1830.46,Debit Card,Authentication Failed,70,63,7,0.9,2,0,Unrecoverable,2026-08-09 12:09:01
+TXN-10685,CUST-1120,Yuki Tanaka (CUST-1120),74.04,Debit Card,Network Timeout,101,73,28,0.723,0,1,Recovered,2026-08-24 01:02:15
+TXN-10686,CUST-1142,Fatima Al-Mansoor (CUST-1142),170.29,ACH Direct Debit,Insufficient Funds,45,30,15,0.667,1,0,Unrecoverable,2026-08-31 08:55:32
+TXN-10687,CUST-1091,David Miller (CUST-1091),49.41,ACH Direct Debit,Expired Card,68,65,3,0.956,0,0,Failed,2026-08-09 11:39:39
+TXN-10688,CUST-1077,Vanguard Systems (CUST-1077),475.84,Digital Wallet,Network Timeout,72,59,13,0.819,1,0,Failed,2026-08-13 07:39:39
+TXN-10689,CUST-1021,Carlos Mendez (CUST-1021),115.85,ACH Direct Debit,Bank Decline,13,11,2,0.846,0,1,Recovered,2026-08-07 09:16:16
+TXN-10690,CUST-1123,Starlight Media (CUST-1123),1849.66,Digital Wallet,Authentication Failed,65,42,23,0.646,1,0,Unrecoverable,2026-08-17 19:24:59
+TXN-10691,CUST-1102,Pulse Health (CUST-1102),123.63,Credit Card,Insufficient Funds,78,53,25,0.679,3,0,Failed,2026-08-13 06:20:13
+TXN-10692,CUST-1038,Sarah Jenkins (CUST-1038),1789.51,Debit Card,Insufficient Funds,76,66,10,0.868,1,0,Failed,2026-08-21 04:57:50
+TXN-10693,CUST-1006,Pulse Health (CUST-1006),556.09,ACH Direct Debit,Authentication Failed,62,37,25,0.597,0,0,Unrecoverable,2026-08-14 06:23:06
+TXN-10694,CUST-1076,Horizon Tech (CUST-1076),91.87,Credit Card,Authentication Failed,46,42,4,0.913,1,0,Unrecoverable,2026-08-24 08:19:40
+TXN-10695,CUST-1142,Fatima Al-Mansoor (CUST-1142),1359.39,Digital Wallet,Bank Decline,45,30,15,0.667,3,0,Failed,2026-08-13 22:39:50
+TXN-10696,CUST-1016,Elena Rostova (CUST-1016),86.32,UPI,Authentication Failed,27,18,9,0.667,1,1,Pending,2026-09-04 03:44:46
+TXN-10697,CUST-1089,Marcus Chen (CUST-1089),906.53,Debit Card,Authentication Failed,105,84,21,0.8,1,1,Pending,2026-08-13 13:52:39
+TXN-10698,CUST-1087,Rajesh Kumar (CUST-1087),534.05,Debit Card,Network Timeout,18,11,7,0.611,3,0,Failed,2026-08-31 23:30:35
+TXN-10699,CUST-1093,Carlos Mendez (CUST-1093),2204.61,Debit Card,Network Timeout,119,98,21,0.824,3,0,Unrecoverable,2026-08-21 11:22:20
+TXN-10700,CUST-1045,Carlos Mendez (CUST-1045),422.59,ACH Direct Debit,Network Timeout,12,10,2,0.833,0,1,Recovered,2026-09-05 23:09:35
+TXN-10701,CUST-1092,Sophia Taylor (CUST-1092),901.35,Credit Card,Insufficient Funds,29,20,9,0.69,1,0,Unrecoverable,2026-08-13 18:54:31
+TXN-10702,CUST-1144,Yuki Tanaka (CUST-1144),266.02,Credit Card,Bank Decline,77,47,30,0.61,1,0,Unrecoverable,2026-09-02 04:45:09
+TXN-10703,CUST-1027,Starlight Media (CUST-1027),566.98,Credit Card,Insufficient Funds,98,61,37,0.622,2,0,Failed,2026-08-31 16:41:28
+TXN-10704,CUST-1011,CloudScale Networks (CUST-1011),83.49,UPI,Expired Card,61,41,20,0.672,3,0,Failed,2026-08-29 20:18:23
+TXN-10705,CUST-1128,Quantum Labs (CUST-1128),194.68,Debit Card,Insufficient Funds,20,12,8,0.6,0,0,Failed,2026-08-30 01:31:46
+TXN-10706,CUST-1002,Nova Software (CUST-1002),1248.51,Debit Card,Insufficient Funds,102,71,31,0.696,1,0,Failed,2026-08-17 19:21:18
+TXN-10707,CUST-1063,Rajesh Kumar (CUST-1063),35.47,Debit Card,Authentication Failed,84,82,2,0.976,1,0,Failed,2026-09-04 13:01:01
+TXN-10708,CUST-1133,Alex Mercer (CUST-1133),122.27,Credit Card,Bank Decline,35,32,3,0.914,0,1,Recovered,2026-08-19 00:52:49
+TXN-10709,CUST-1043,David Miller (CUST-1043),670.48,Debit Card,Bank Decline,115,102,13,0.887,0,0,Unrecoverable,2026-08-30 23:01:21
+TXN-10710,CUST-1134,Sarah Jenkins (CUST-1134),2282.99,Digital Wallet,Network Timeout,15,9,6,0.6,3,0,Failed,2026-08-07 05:22:53
+TXN-10711,CUST-1072,Yuki Tanaka (CUST-1072),424.68,ACH Direct Debit,Expired Card,100,93,7,0.93,2,0,Unrecoverable,2026-08-26 13:09:30
+TXN-10712,CUST-1089,Marcus Chen (CUST-1089),134.84,UPI,Insufficient Funds,105,84,21,0.8,0,0,Failed,2026-08-28 17:45:46
+TXN-10713,CUST-1033,Nexus Retail (CUST-1033),1006.1,Digital Wallet,Network Timeout,54,35,19,0.648,2,1,Pending,2026-08-11 18:54:41
+TXN-10714,CUST-1008,Quantum Labs (CUST-1008),392.97,ACH Direct Debit,Bank Decline,72,59,13,0.819,0,0,Failed,2026-08-14 18:42:59
+TXN-10715,CUST-1130,Zenith Financial (CUST-1130),62.85,ACH Direct Debit,Network Timeout,19,18,1,0.947,2,0,Failed,2026-08-17 03:45:27
+TXN-10716,CUST-1061,Alex Mercer (CUST-1061),1674.63,Digital Wallet,Bank Decline,95,72,23,0.758,0,0,Failed,2026-08-26 23:52:33
+TXN-10717,CUST-1147,Starlight Media (CUST-1147),105.78,Credit Card,Network Timeout,117,93,24,0.795,2,1,Recovered,2026-08-20 14:47:41
+TXN-10718,CUST-1038,Sarah Jenkins (CUST-1038),111.07,ACH Direct Debit,Expired Card,76,66,10,0.868,1,1,Recovered,2026-08-18 01:35:01
+TXN-10719,CUST-1135,Rajesh Kumar (CUST-1135),401.54,Digital Wallet,Authentication Failed,8,7,1,0.875,3,1,Recovered,2026-08-27 15:47:04
+TXN-10720,CUST-1126,Pulse Health (CUST-1126),909.4,Debit Card,Authentication Failed,17,13,4,0.765,3,0,Unrecoverable,2026-08-22 09:11:07
+TXN-10721,CUST-1136,Elena Rostova (CUST-1136),1499.38,Debit Card,Bank Decline,41,39,2,0.951,1,0,Failed,2026-08-25 00:50:38
+TXN-10722,CUST-1105,Nexus Retail (CUST-1105),1150.22,Debit Card,Insufficient Funds,37,23,14,0.622,1,0,Failed,2026-08-16 02:02:20
+TXN-10723,CUST-1125,Vanguard Systems (CUST-1125),214.29,Credit Card,Network Timeout,39,36,3,0.923,1,1,Pending,2026-08-21 15:37:23
+TXN-10724,CUST-1032,Quantum Labs (CUST-1032),180.4,Digital Wallet,Network Timeout,66,55,11,0.833,2,1,Recovered,2026-08-30 10:15:48
+TXN-10725,CUST-1122,Nova Software (CUST-1122),127.65,Digital Wallet,Authentication Failed,32,21,11,0.656,1,0,Failed,2026-09-01 23:27:38
+TXN-10726,CUST-1084,Aura Designs (CUST-1084),431.15,Debit Card,Authentication Failed,114,103,11,0.904,1,1,Pending,2026-09-02 16:31:22
+TXN-10727,CUST-1072,Yuki Tanaka (CUST-1072),1943.7,UPI,Bank Decline,100,93,7,0.93,3,0,Unrecoverable,2026-08-09 13:00:04
+TXN-10728,CUST-1139,David Miller (CUST-1139),92.88,ACH Direct Debit,Bank Decline,101,98,3,0.97,0,1,Pending,2026-08-12 09:06:25
+TXN-10729,CUST-1005,Vanguard Systems (CUST-1005),2176.41,ACH Direct Debit,Insufficient Funds,77,48,29,0.623,2,0,Failed,2026-08-24 15:41:41
+TXN-10730,CUST-1126,Pulse Health (CUST-1126),160.47,Credit Card,Bank Decline,17,13,4,0.765,1,0,Failed,2026-08-10 10:14:09
+TXN-10731,CUST-1026,Nova Software (CUST-1026),88.14,Debit Card,Network Timeout,54,44,10,0.815,1,1,Recovered,2026-08-25 10:06:50
+TXN-10732,CUST-1084,Aura Designs (CUST-1084),39.5,UPI,Expired Card,114,103,11,0.904,1,0,Failed,2026-08-18 06:03:40
+TXN-10733,CUST-1031,ECHO Commerce (CUST-1031),22.0,ACH Direct Debit,Bank Decline,20,14,6,0.7,2,0,Failed,2026-08-15 01:34:43
+TXN-10734,CUST-1082,Zenith Financial (CUST-1082),333.18,Debit Card,Insufficient Funds,70,42,28,0.6,1,0,Unrecoverable,2026-08-27 05:45:43
+TXN-10735,CUST-1064,Elena Rostova (CUST-1064),838.59,ACH Direct Debit,Authentication Failed,75,52,23,0.693,0,0,Unrecoverable,2026-08-13 02:10:50
+TXN-10736,CUST-1037,Alex Mercer (CUST-1037),2085.84,ACH Direct Debit,Bank Decline,85,71,14,0.835,1,1,Recovered,2026-09-04 19:41:39
+TXN-10737,CUST-1075,Starlight Media (CUST-1075),225.32,UPI,Bank Decline,21,19,2,0.905,1,0,Failed,2026-09-05 23:08:45
+TXN-10738,CUST-1055,ECHO Commerce (CUST-1055),686.42,Digital Wallet,Bank Decline,62,58,4,0.935,0,0,Failed,2026-08-27 22:33:39
+TXN-10739,CUST-1036,Aura Designs (CUST-1036),112.88,Digital Wallet,Bank Decline,95,80,15,0.842,1,0,Failed,2026-08-26 01:00:50
+TXN-10740,CUST-1116,Sophia Taylor (CUST-1116),51.86,ACH Direct Debit,Bank Decline,60,46,14,0.767,1,1,Pending,2026-08-10 23:58:27
+TXN-10741,CUST-1001,Apex Logistics (CUST-1001),97.19,ACH Direct Debit,Bank Decline,89,57,32,0.64,3,0,Failed,2026-08-23 03:08:47
+TXN-10742,CUST-1020,Sophia Taylor (CUST-1020),551.66,Credit Card,Network Timeout,85,59,26,0.694,1,0,Failed,2026-08-18 14:09:09
+TXN-10743,CUST-1003,Starlight Media (CUST-1003),31.84,Debit Card,Insufficient Funds,36,23,13,0.639,1,0,Unrecoverable,2026-08-17 17:19:22
+TXN-10744,CUST-1024,Yuki Tanaka (CUST-1024),125.2,Debit Card,Authentication Failed,45,41,4,0.911,1,1,Recovered,2026-09-03 02:56:14
+TXN-10745,CUST-1054,Pulse Health (CUST-1054),15.96,UPI,Bank Decline,41,36,5,0.878,2,0,Unrecoverable,2026-08-12 19:12:23
+TXN-10746,CUST-1145,Apex Logistics (CUST-1145),933.5,Debit Card,Insufficient Funds,48,29,19,0.604,0,1,Pending,2026-09-01 15:38:12
+TXN-10747,CUST-1134,Sarah Jenkins (CUST-1134),113.4,Digital Wallet,Bank Decline,15,9,6,0.6,1,0,Failed,2026-08-07 01:05:57
+TXN-10748,CUST-1110,Sarah Jenkins (CUST-1110),574.38,ACH Direct Debit,Authentication Failed,100,95,5,0.95,1,1,Pending,2026-08-20 23:38:03
+TXN-10749,CUST-1093,Carlos Mendez (CUST-1093),84.83,UPI,Authentication Failed,119,98,21,0.824,2,1,Recovered,2026-08-18 17:49:48
+TXN-10750,CUST-1086,Sarah Jenkins (CUST-1086),648.21,Debit Card,Authentication Failed,120,97,23,0.808,0,0,Failed,2026-08-11 22:07:06
+TXN-10751,CUST-1080,Quantum Labs (CUST-1080),431.38,Credit Card,Bank Decline,107,101,6,0.944,3,0,Failed,2026-08-14 09:38:32
+TXN-10752,CUST-1122,Nova Software (CUST-1122),303.36,Digital Wallet,Expired Card,32,21,11,0.656,0,0,Unrecoverable,2026-08-20 03:25:58
+TXN-10753,CUST-1025,Apex Logistics (CUST-1025),99.42,Credit Card,Authentication Failed,87,81,6,0.931,1,0,Unrecoverable,2026-08-08 22:30:43
+TXN-10754,CUST-1033,Nexus Retail (CUST-1033),704.1,ACH Direct Debit,Insufficient Funds,54,35,19,0.648,0,0,Unrecoverable,2026-08-08 13:16:41
+TXN-10755,CUST-1098,Nova Software (CUST-1098),1381.11,Digital Wallet,Insufficient Funds,91,67,24,0.736,1,0,Failed,2026-09-02 09:14:50
+TXN-10756,CUST-1026,Nova Software (CUST-1026),571.91,Digital Wallet,Network Timeout,54,44,10,0.815,2,1,Recovered,2026-08-07 08:32:22
+TXN-10757,CUST-1018,Priya Sharma (CUST-1018),95.04,Digital Wallet,Network Timeout,19,14,5,0.737,1,1,Pending,2026-08-25 14:42:16
+TXN-10758,CUST-1048,Yuki Tanaka (CUST-1048),508.66,Digital Wallet,Authentication Failed,80,74,6,0.925,2,0,Failed,2026-08-16 07:44:50
+TXN-10759,CUST-1139,David Miller (CUST-1139),216.33,UPI,Network Timeout,101,98,3,0.97,0,1,Pending,2026-08-27 08:04:05
+TXN-10760,CUST-1015,Rajesh Kumar (CUST-1015),47.05,ACH Direct Debit,Network Timeout,62,45,17,0.726,0,0,Unrecoverable,2026-09-03 05:48:43
+TXN-10761,CUST-1018,Priya Sharma (CUST-1018),450.54,Digital Wallet,Network Timeout,19,14,5,0.737,2,1,Recovered,2026-08-25 11:17:09
+TXN-10762,CUST-1108,Aura Designs (CUST-1108),59.36,ACH Direct Debit,Expired Card,43,36,7,0.837,0,0,Unrecoverable,2026-08-13 21:29:20
+TXN-10763,CUST-1055,ECHO Commerce (CUST-1055),480.56,ACH Direct Debit,Expired Card,62,58,4,0.935,1,1,Recovered,2026-08-17 20:55:12
+TXN-10764,CUST-1019,David Miller (CUST-1019),399.61,Debit Card,Bank Decline,53,48,5,0.906,1,1,Recovered,2026-08-12 23:03:37
+TXN-10765,CUST-1073,Apex Logistics (CUST-1073),548.42,Digital Wallet,Expired Card,41,39,2,0.951,0,1,Recovered,2026-09-01 06:33:59
+TXN-10766,CUST-1026,Nova Software (CUST-1026),17.83,UPI,Expired Card,54,44,10,0.815,1,1,Recovered,2026-08-31 06:31:22
+TXN-10767,CUST-1044,Sophia Taylor (CUST-1044),589.7,Credit Card,Insufficient Funds,15,10,5,0.667,0,0,Failed,2026-08-30 20:01:06
+TXN-10768,CUST-1050,Nova Software (CUST-1050),462.46,Debit Card,Insufficient Funds,71,53,18,0.746,2,0,Unrecoverable,2026-08-15 19:30:12
+TXN-10769,CUST-1039,Rajesh Kumar (CUST-1039),59.24,Digital Wallet,Bank Decline,28,21,7,0.75,1,0,Failed,2026-08-30 12:39:02
+TXN-10770,CUST-1017,Marcus Chen (CUST-1017),2276.6,UPI,Authentication Failed,105,76,29,0.724,2,0,Failed,2026-08-28 08:40:56
+TXN-10771,CUST-1135,Rajesh Kumar (CUST-1135),472.04,Digital Wallet,Authentication Failed,8,7,1,0.875,3,0,Unrecoverable,2026-08-26 11:30:09
+TXN-10772,CUST-1054,Pulse Health (CUST-1054),241.35,Debit Card,Network Timeout,41,36,5,0.878,1,0,Unrecoverable,2026-08-11 16:52:57
+TXN-10773,CUST-1096,Yuki Tanaka (CUST-1096),188.14,ACH Direct Debit,Bank Decline,33,28,5,0.848,1,0,Failed,2026-08-20 22:40:26
+TXN-10774,CUST-1087,Rajesh Kumar (CUST-1087),360.4,UPI,Network Timeout,18,11,7,0.611,1,1,Recovered,2026-08-14 00:01:15
+TXN-10775,CUST-1020,Sophia Taylor (CUST-1020),2200.95,Digital Wallet,Insufficient Funds,85,59,26,0.694,1,0,Failed,2026-08-10 13:04:30
+TXN-10776,CUST-1093,Carlos Mendez (CUST-1093),240.14,UPI,Network Timeout,119,98,21,0.824,3,0,Unrecoverable,2026-09-01 08:24:52
+TXN-10777,CUST-1049,Apex Logistics (CUST-1049),2496.97,Digital Wallet,Network Timeout,48,32,16,0.667,0,0,Failed,2026-08-31 15:45:15
+TXN-10778,CUST-1104,Quantum Labs (CUST-1104),142.69,ACH Direct Debit,Bank Decline,98,82,16,0.837,0,0,Failed,2026-08-13 19:04:43
+TXN-10779,CUST-1054,Pulse Health (CUST-1054),382.12,ACH Direct Debit,Network Timeout,41,36,5,0.878,0,1,Recovered,2026-08-19 20:25:21
+TXN-10780,CUST-1107,CloudScale Networks (CUST-1107),352.49,Debit Card,Bank Decline,17,13,4,0.765,0,0,Unrecoverable,2026-08-07 06:39:44
+TXN-10781,CUST-1091,David Miller (CUST-1091),338.62,Digital Wallet,Network Timeout,68,65,3,0.956,1,1,Pending,2026-08-30 13:08:58
+TXN-10782,CUST-1036,Aura Designs (CUST-1036),1227.48,Digital Wallet,Bank Decline,95,80,15,0.842,2,0,Failed,2026-08-13 02:43:08
+TXN-10783,CUST-1101,Vanguard Systems (CUST-1101),323.9,Digital Wallet,Authentication Failed,51,31,20,0.608,3,0,Failed,2026-08-12 03:07:00
+TXN-10784,CUST-1142,Fatima Al-Mansoor (CUST-1142),38.98,Debit Card,Expired Card,45,30,15,0.667,0,0,Failed,2026-08-15 12:02:25
+TXN-10785,CUST-1060,Aura Designs (CUST-1060),385.98,Digital Wallet,Insufficient Funds,88,58,30,0.659,0,1,Recovered,2026-08-18 17:17:15
+TXN-10786,CUST-1029,Vanguard Systems (CUST-1029),338.29,Debit Card,Expired Card,45,43,2,0.956,0,1,Pending,2026-08-26 22:20:33
+TXN-10787,CUST-1041,Marcus Chen (CUST-1041),1716.23,ACH Direct Debit,Network Timeout,89,76,13,0.854,0,1,Recovered,2026-08-20 08:37:06
+TXN-10788,CUST-1103,ECHO Commerce (CUST-1103),1224.89,ACH Direct Debit,Authentication Failed,36,21,15,0.583,1,0,Unrecoverable,2026-08-09 17:17:08
+TXN-10789,CUST-1117,Carlos Mendez (CUST-1117),529.19,Digital Wallet,Expired Card,101,62,39,0.614,1,1,Pending,2026-08-28 23:37:38
+TXN-10790,CUST-1118,Fatima Al-Mansoor (CUST-1118),66.93,ACH Direct Debit,Insufficient Funds,91,88,3,0.967,0,0,Failed,2026-08-15 04:48:38
+TXN-10791,CUST-1138,Priya Sharma (CUST-1138),1926.28,Debit Card,Authentication Failed,62,53,9,0.855,1,0,Unrecoverable,2026-08-10 14:58:40
+TXN-10792,CUST-1095,Liam O'Connor (CUST-1095),197.35,ACH Direct Debit,Authentication Failed,104,91,13,0.875,0,1,Pending,2026-08-08 07:49:44
+TXN-10793,CUST-1007,ECHO Commerce (CUST-1007),462.52,UPI,Authentication Failed,19,12,7,0.632,0,1,Recovered,2026-08-14 12:07:40
+TXN-10794,CUST-1035,CloudScale Networks (CUST-1035),59.16,Credit Card,Bank Decline,42,36,6,0.857,3,0,Failed,2026-08-11 04:40:33
+TXN-10795,CUST-1072,Yuki Tanaka (CUST-1072),128.61,Debit Card,Network Timeout,100,93,7,0.93,0,1,Recovered,2026-08-12 00:58:41
+TXN-10796,CUST-1003,Starlight Media (CUST-1003),106.45,Credit Card,Bank Decline,36,23,13,0.639,0,0,Failed,2026-09-01 01:58:21
+TXN-10797,CUST-1134,Sarah Jenkins (CUST-1134),472.38,UPI,Authentication Failed,15,9,6,0.6,0,1,Recovered,2026-08-30 03:49:36
+TXN-10798,CUST-1052,Horizon Tech (CUST-1052),140.39,Credit Card,Authentication Failed,41,26,15,0.634,0,0,Failed,2026-08-31 14:28:15
+TXN-10799,CUST-1017,Marcus Chen (CUST-1017),2114.16,Debit Card,Expired Card,105,76,29,0.724,0,1,Recovered,2026-08-31 10:56:28
+TXN-10800,CUST-1083,CloudScale Networks (CUST-1083),993.53,ACH Direct Debit,Authentication Failed,54,50,4,0.926,0,1,Recovered,2026-08-17 16:25:36
+TXN-10801,CUST-1045,Carlos Mendez (CUST-1045),17.02,ACH Direct Debit,Expired Card,12,10,2,0.833,0,0,Failed,2026-08-26 11:39:07
+TXN-10802,CUST-1095,Liam O'Connor (CUST-1095),1381.08,ACH Direct Debit,Insufficient Funds,104,91,13,0.875,3,0,Unrecoverable,2026-08-12 03:08:32
+TXN-10803,CUST-1025,Apex Logistics (CUST-1025),1923.0,Debit Card,Network Timeout,87,81,6,0.931,0,1,Pending,2026-08-16 12:37:40
+TXN-10804,CUST-1124,Horizon Tech (CUST-1124),157.94,ACH Direct Debit,Bank Decline,31,21,10,0.677,3,0,Unrecoverable,2026-08-24 14:40:09
+TXN-10805,CUST-1004,Horizon Tech (CUST-1004),427.36,Debit Card,Authentication Failed,21,18,3,0.857,0,1,Recovered,2026-08-11 02:43:54
+TXN-10806,CUST-1128,Quantum Labs (CUST-1128),55.04,Debit Card,Bank Decline,20,12,8,0.6,1,0,Failed,2026-08-11 00:21:50
+TXN-10807,CUST-1082,Zenith Financial (CUST-1082),492.22,UPI,Insufficient Funds,70,42,28,0.6,0,0,Failed,2026-08-17 06:27:22
+TXN-10808,CUST-1053,Vanguard Systems (CUST-1053),87.81,Debit Card,Bank Decline,103,83,20,0.806,1,0,Failed,2026-08-20 06:11:29
+TXN-10809,CUST-1002,Nova Software (CUST-1002),23.72,Debit Card,Expired Card,102,71,31,0.696,0,1,Pending,2026-08-23 10:51:42
+TXN-10810,CUST-1053,Vanguard Systems (CUST-1053),185.17,Debit Card,Expired Card,103,83,20,0.806,0,1,Pending,2026-08-14 10:56:59
+TXN-10811,CUST-1074,Nova Software (CUST-1074),585.48,Credit Card,Network Timeout,105,70,35,0.667,1,1,Recovered,2026-08-20 05:28:57
+TXN-10812,CUST-1130,Zenith Financial (CUST-1130),345.04,Credit Card,Authentication Failed,19,18,1,0.947,1,0,Failed,2026-08-24 20:13:25
+TXN-10813,CUST-1040,Elena Rostova (CUST-1040),229.06,ACH Direct Debit,Network Timeout,42,40,2,0.952,1,1,Recovered,2026-08-09 03:29:18
+TXN-10814,CUST-1035,CloudScale Networks (CUST-1035),111.51,Credit Card,Bank Decline,42,36,6,0.857,3,0,Failed,2026-08-19 02:58:17
+TXN-10815,CUST-1107,CloudScale Networks (CUST-1107),586.72,UPI,Bank Decline,17,13,4,0.765,0,0,Failed,2026-09-05 18:16:19
+TXN-10816,CUST-1032,Quantum Labs (CUST-1032),404.52,UPI,Network Timeout,66,55,11,0.833,2,0,Unrecoverable,2026-08-27 15:24:15
+TXN-10817,CUST-1015,Rajesh Kumar (CUST-1015),102.87,ACH Direct Debit,Insufficient Funds,62,45,17,0.726,1,0,Unrecoverable,2026-08-07 20:02:10
+TXN-10818,CUST-1038,Sarah Jenkins (CUST-1038),354.96,Debit Card,Bank Decline,76,66,10,0.868,2,0,Failed,2026-08-07 08:34:29
+TXN-10819,CUST-1024,Yuki Tanaka (CUST-1024),1355.57,Credit Card,Bank Decline,45,41,4,0.911,0,0,Failed,2026-08-31 21:06:41
+TXN-10820,CUST-1065,Marcus Chen (CUST-1065),375.29,Digital Wallet,Network Timeout,78,72,6,0.923,3,1,Pending,2026-09-02 01:40:21
+TXN-10821,CUST-1028,Horizon Tech (CUST-1028),100.88,UPI,Expired Card,92,63,29,0.685,3,0,Failed,2026-08-07 04:18:51
+TXN-10822,CUST-1044,Sophia Taylor (CUST-1044),732.7,ACH Direct Debit,Bank Decline,15,10,5,0.667,1,0,Unrecoverable,2026-08-19 21:58:31
+TXN-10823,CUST-1046,Fatima Al-Mansoor (CUST-1046),65.58,Digital Wallet,Insufficient Funds,59,41,18,0.695,1,0,Failed,2026-08-12 13:21:04
+TXN-10824,CUST-1016,Elena Rostova (CUST-1016),514.13,ACH Direct Debit,Bank Decline,27,18,9,0.667,0,0,Failed,2026-08-09 09:09:17
+TXN-10825,CUST-1022,Fatima Al-Mansoor (CUST-1022),1250.09,Debit Card,Authentication Failed,76,49,27,0.645,1,0,Failed,2026-08-07 06:32:11
+TXN-10826,CUST-1069,Carlos Mendez (CUST-1069),116.49,Credit Card,Expired Card,106,89,17,0.84,2,0,Failed,2026-08-25 01:50:27
+TXN-10827,CUST-1069,Carlos Mendez (CUST-1069),362.95,UPI,Network Timeout,106,89,17,0.84,3,0,Failed,2026-08-31 11:49:18
+TXN-10828,CUST-1093,Carlos Mendez (CUST-1093),320.3,UPI,Insufficient Funds,119,98,21,0.824,0,0,Unrecoverable,2026-08-19 00:59:37
+TXN-10829,CUST-1036,Aura Designs (CUST-1036),1608.2,Debit Card,Network Timeout,95,80,15,0.842,1,1,Pending,2026-09-02 01:59:09
+TXN-10830,CUST-1132,Aura Designs (CUST-1132),234.57,Credit Card,Network Timeout,60,47,13,0.783,0,0,Unrecoverable,2026-08-16 18:04:11
+TXN-10831,CUST-1114,Priya Sharma (CUST-1114),46.53,UPI,Authentication Failed,20,12,8,0.6,1,0,Unrecoverable,2026-09-03 03:26:16
+TXN-10832,CUST-1099,Starlight Media (CUST-1099),872.01,Digital Wallet,Bank Decline,74,57,17,0.77,0,1,Recovered,2026-08-16 00:39:45
+TXN-10833,CUST-1141,Carlos Mendez (CUST-1141),148.27,ACH Direct Debit,Bank Decline,70,46,24,0.657,0,0,Failed,2026-08-29 14:02:01
+TXN-10834,CUST-1023,Liam O'Connor (CUST-1023),597.01,ACH Direct Debit,Network Timeout,56,35,21,0.625,0,1,Pending,2026-08-21 06:37:46
+TXN-10835,CUST-1032,Quantum Labs (CUST-1032),565.23,Credit Card,Network Timeout,66,55,11,0.833,0,0,Unrecoverable,2026-08-08 22:15:07
+TXN-10836,CUST-1088,Elena Rostova (CUST-1088),472.85,Digital Wallet,Authentication Failed,70,63,7,0.9,0,1,Recovered,2026-08-15 17:11:41
+TXN-10837,CUST-1029,Vanguard Systems (CUST-1029),2380.7,Credit Card,Bank Decline,45,43,2,0.956,1,0,Failed,2026-09-04 14:37:16
+TXN-10838,CUST-1148,Horizon Tech (CUST-1148),114.48,ACH Direct Debit,Authentication Failed,15,14,1,0.933,1,0,Unrecoverable,2026-09-04 00:07:04
+TXN-10839,CUST-1033,Nexus Retail (CUST-1033),420.73,Credit Card,Bank Decline,54,35,19,0.648,1,0,Failed,2026-09-01 02:29:16
+TXN-10840,CUST-1128,Quantum Labs (CUST-1128),1138.45,Credit Card,Bank Decline,20,12,8,0.6,1,0,Unrecoverable,2026-08-10 16:35:09
+TXN-10841,CUST-1147,Starlight Media (CUST-1147),1540.55,ACH Direct Debit,Insufficient Funds,117,93,24,0.795,1,1,Pending,2026-08-13 07:19:59
+TXN-10842,CUST-1058,Zenith Financial (CUST-1058),109.56,ACH Direct Debit,Authentication Failed,19,16,3,0.842,1,0,Unrecoverable,2026-09-03 08:36:10
+TXN-10843,CUST-1041,Marcus Chen (CUST-1041),1241.08,ACH Direct Debit,Network Timeout,89,76,13,0.854,1,1,Pending,2026-08-28 18:57:18
+TXN-10844,CUST-1073,Apex Logistics (CUST-1073),237.79,Credit Card,Expired Card,41,39,2,0.951,1,0,Unrecoverable,2026-09-01 23:06:27
+TXN-10845,CUST-1014,Sarah Jenkins (CUST-1014),129.72,Digital Wallet,Expired Card,111,73,38,0.658,1,0,Failed,2026-09-02 21:41:19
+TXN-10846,CUST-1054,Pulse Health (CUST-1054),44.45,UPI,Bank Decline,41,36,5,0.878,0,0,Failed,2026-08-18 06:48:43
+TXN-10847,CUST-1110,Sarah Jenkins (CUST-1110),225.7,ACH Direct Debit,Expired Card,100,95,5,0.95,0,1,Pending,2026-08-26 11:45:44
+TXN-10848,CUST-1112,Elena Rostova (CUST-1112),145.91,Credit Card,Expired Card,39,35,4,0.897,1,1,Pending,2026-08-24 20:55:25
+TXN-10849,CUST-1045,Carlos Mendez (CUST-1045),1914.41,Credit Card,Authentication Failed,12,10,2,0.833,3,0,Unrecoverable,2026-08-26 13:59:33
+TXN-10850,CUST-1095,Liam O'Connor (CUST-1095),831.9,Digital Wallet,Expired Card,104,91,13,0.875,0,1,Pending,2026-08-21 08:55:50
+TXN-10851,CUST-1025,Apex Logistics (CUST-1025),1519.96,ACH Direct Debit,Network Timeout,87,81,6,0.931,2,1,Recovered,2026-08-08 21:24:38
+TXN-10852,CUST-1138,Priya Sharma (CUST-1138),637.52,Digital Wallet,Bank Decline,62,53,9,0.855,1,1,Pending,2026-08-23 03:45:31
+TXN-10853,CUST-1032,Quantum Labs (CUST-1032),116.72,Debit Card,Bank Decline,66,55,11,0.833,3,0,Unrecoverable,2026-08-20 09:41:58
+TXN-10854,CUST-1081,Nexus Retail (CUST-1081),31.61,Credit Card,Bank Decline,8,6,2,0.75,1,0,Failed,2026-08-09 12:36:40
+TXN-10855,CUST-1032,Quantum Labs (CUST-1032),313.6,Credit Card,Expired Card,66,55,11,0.833,1,1,Pending,2026-09-03 03:01:04
+TXN-10856,CUST-1076,Horizon Tech (CUST-1076),1696.44,UPI,Bank Decline,46,42,4,0.913,1,0,Unrecoverable,2026-08-13 06:46:34
+TXN-10857,CUST-1026,Nova Software (CUST-1026),104.45,UPI,Expired Card,54,44,10,0.815,0,1,Recovered,2026-08-24 17:46:32
+TXN-10858,CUST-1072,Yuki Tanaka (CUST-1072),430.04,UPI,Authentication Failed,100,93,7,0.93,3,0,Failed,2026-08-20 16:03:38
+TXN-10859,CUST-1066,Priya Sharma (CUST-1066),106.33,Credit Card,Network Timeout,9,7,2,0.778,3,0,Failed,2026-08-28 10:05:31
+TXN-10860,CUST-1145,Apex Logistics (CUST-1145),519.23,Debit Card,Network Timeout,48,29,19,0.604,1,1,Pending,2026-08-14 09:53:24
+TXN-10861,CUST-1070,Fatima Al-Mansoor (CUST-1070),31.82,UPI,Insufficient Funds,22,15,7,0.682,1,0,Failed,2026-08-11 09:02:56
+TXN-10862,CUST-1058,Zenith Financial (CUST-1058),51.94,ACH Direct Debit,Insufficient Funds,19,16,3,0.842,0,1,Pending,2026-09-02 06:03:37
+TXN-10863,CUST-1126,Pulse Health (CUST-1126),307.01,Digital Wallet,Network Timeout,17,13,4,0.765,2,1,Recovered,2026-08-12 02:37:47
+TXN-10864,CUST-1100,Horizon Tech (CUST-1100),1887.84,Digital Wallet,Bank Decline,39,26,13,0.667,1,0,Failed,2026-08-14 18:12:56
+TXN-10865,CUST-1132,Aura Designs (CUST-1132),871.07,UPI,Insufficient Funds,60,47,13,0.783,3,0,Failed,2026-08-28 05:05:36
+TXN-10866,CUST-1064,Elena Rostova (CUST-1064),338.21,UPI,Authentication Failed,75,52,23,0.693,2,1,Recovered,2026-08-22 14:31:11
+TXN-10867,CUST-1059,CloudScale Networks (CUST-1059),536.06,UPI,Insufficient Funds,118,75,43,0.636,3,0,Unrecoverable,2026-08-14 04:31:05
+TXN-10868,CUST-1024,Yuki Tanaka (CUST-1024),2012.48,ACH Direct Debit,Insufficient Funds,45,41,4,0.911,1,0,Unrecoverable,2026-08-11 01:55:12
+TXN-10869,CUST-1128,Quantum Labs (CUST-1128),2287.35,Credit Card,Authentication Failed,20,12,8,0.6,0,0,Unrecoverable,2026-08-07 04:56:26
+TXN-10870,CUST-1109,Alex Mercer (CUST-1109),1064.03,Digital Wallet,Bank Decline,35,28,7,0.8,0,0,Failed,2026-08-27 05:20:52
+TXN-10871,CUST-1135,Rajesh Kumar (CUST-1135),137.01,Digital Wallet,Network Timeout,8,7,1,0.875,0,1,Recovered,2026-08-12 02:26:25
+TXN-10872,CUST-1029,Vanguard Systems (CUST-1029),60.62,UPI,Network Timeout,45,43,2,0.956,1,1,Recovered,2026-08-07 01:18:01
+TXN-10873,CUST-1146,Nova Software (CUST-1146),2365.31,Digital Wallet,Insufficient Funds,82,64,18,0.78,1,0,Failed,2026-08-08 17:05:22
+TXN-10874,CUST-1002,Nova Software (CUST-1002),98.1,UPI,Expired Card,102,71,31,0.696,1,1,Recovered,2026-08-19 21:52:14
+TXN-10875,CUST-1051,Starlight Media (CUST-1051),26.44,ACH Direct Debit,Insufficient Funds,90,69,21,0.767,0,0,Failed,2026-08-13 18:28:49
+TXN-10876,CUST-1102,Pulse Health (CUST-1102),2295.17,UPI,Insufficient Funds,78,53,25,0.679,1,0,Failed,2026-08-11 20:12:45
+TXN-10877,CUST-1091,David Miller (CUST-1091),2278.79,Debit Card,Insufficient Funds,68,65,3,0.956,0,1,Recovered,2026-08-18 19:45:53
+TXN-10878,CUST-1085,Alex Mercer (CUST-1085),222.14,UPI,Insufficient Funds,38,23,15,0.605,1,0,Failed,2026-08-30 23:33:44
+TXN-10879,CUST-1033,Nexus Retail (CUST-1033),2275.36,ACH Direct Debit,Expired Card,54,35,19,0.648,0,0,Failed,2026-08-10 18:30:02
+TXN-10880,CUST-1089,Marcus Chen (CUST-1089),1049.36,UPI,Authentication Failed,105,84,21,0.8,2,0,Failed,2026-08-21 09:25:50
+TXN-10881,CUST-1073,Apex Logistics (CUST-1073),80.6,Digital Wallet,Expired Card,41,39,2,0.951,0,1,Recovered,2026-09-01 21:53:30
+TXN-10882,CUST-1064,Elena Rostova (CUST-1064),104.95,Digital Wallet,Bank Decline,75,52,23,0.693,0,0,Unrecoverable,2026-08-25 20:30:19
+TXN-10883,CUST-1039,Rajesh Kumar (CUST-1039),45.97,Debit Card,Authentication Failed,28,21,7,0.75,0,1,Recovered,2026-09-01 22:01:26
+TXN-10884,CUST-1098,Nova Software (CUST-1098),69.99,Debit Card,Network Timeout,91,67,24,0.736,1,1,Pending,2026-08-19 19:11:03
+TXN-10885,CUST-1014,Sarah Jenkins (CUST-1014),271.16,ACH Direct Debit,Expired Card,111,73,38,0.658,1,0,Failed,2026-08-08 05:07:55
+TXN-10886,CUST-1014,Sarah Jenkins (CUST-1014),294.74,Digital Wallet,Insufficient Funds,111,73,38,0.658,1,1,Recovered,2026-08-17 21:28:13
+TXN-10887,CUST-1078,Pulse Health (CUST-1078),30.06,UPI,Network Timeout,27,20,7,0.741,3,0,Unrecoverable,2026-08-30 08:26:01
+TXN-10888,CUST-1136,Elena Rostova (CUST-1136),1124.3,ACH Direct Debit,Insufficient Funds,41,39,2,0.951,0,1,Pending,2026-08-25 01:00:47
+TXN-10889,CUST-1011,CloudScale Networks (CUST-1011),94.19,Debit Card,Authentication Failed,61,41,20,0.672,0,1,Pending,2026-08-25 13:22:45
+TXN-10890,CUST-1078,Pulse Health (CUST-1078),983.8,Debit Card,Insufficient Funds,27,20,7,0.741,0,1,Pending,2026-08-28 08:02:45
+TXN-10891,CUST-1144,Yuki Tanaka (CUST-1144),1452.12,Credit Card,Authentication Failed,77,47,30,0.61,0,1,Pending,2026-09-03 22:15:03
+TXN-10892,CUST-1129,Nexus Retail (CUST-1129),121.77,UPI,Insufficient Funds,77,70,7,0.909,2,1,Pending,2026-08-12 16:37:45
+TXN-10893,CUST-1102,Pulse Health (CUST-1102),81.83,Debit Card,Authentication Failed,78,53,25,0.679,2,1,Recovered,2026-08-19 00:18:11
+TXN-10894,CUST-1070,Fatima Al-Mansoor (CUST-1070),1686.61,Credit Card,Bank Decline,22,15,7,0.682,1,0,Unrecoverable,2026-08-22 17:44:40
+TXN-10895,CUST-1078,Pulse Health (CUST-1078),130.08,Debit Card,Expired Card,27,20,7,0.741,0,1,Recovered,2026-08-08 03:50:13
+TXN-10896,CUST-1038,Sarah Jenkins (CUST-1038),142.18,Debit Card,Expired Card,76,66,10,0.868,2,1,Pending,2026-08-17 09:51:51
+TXN-10897,CUST-1095,Liam O'Connor (CUST-1095),575.89,Debit Card,Authentication Failed,104,91,13,0.875,2,1,Recovered,2026-08-25 18:22:46
+TXN-10898,CUST-1003,Starlight Media (CUST-1003),126.23,UPI,Insufficient Funds,36,23,13,0.639,2,0,Unrecoverable,2026-08-10 04:19:50
+TXN-10899,CUST-1098,Nova Software (CUST-1098),1789.84,Digital Wallet,Expired Card,91,67,24,0.736,1,1,Recovered,2026-08-13 02:30:47
+TXN-10900,CUST-1102,Pulse Health (CUST-1102),254.28,Debit Card,Authentication Failed,78,53,25,0.679,0,1,Recovered,2026-08-12 12:54:43
+TXN-10901,CUST-1046,Fatima Al-Mansoor (CUST-1046),1986.01,UPI,Insufficient Funds,59,41,18,0.695,1,1,Recovered,2026-08-31 12:17:28
+TXN-10902,CUST-1049,Apex Logistics (CUST-1049),1065.98,ACH Direct Debit,Insufficient Funds,48,32,16,0.667,3,0,Unrecoverable,2026-08-29 12:00:41
+TXN-10903,CUST-1004,Horizon Tech (CUST-1004),96.44,Credit Card,Expired Card,21,18,3,0.857,0,0,Failed,2026-08-11 06:23:22
+TXN-10904,CUST-1004,Horizon Tech (CUST-1004),2104.16,UPI,Insufficient Funds,21,18,3,0.857,0,1,Pending,2026-09-02 18:12:46
+TXN-10905,CUST-1042,Priya Sharma (CUST-1042),1063.24,UPI,Bank Decline,36,30,6,0.833,0,1,Recovered,2026-08-10 01:43:07
+TXN-10906,CUST-1076,Horizon Tech (CUST-1076),28.85,Debit Card,Insufficient Funds,46,42,4,0.913,0,1,Recovered,2026-08-17 14:04:29
+TXN-10907,CUST-1074,Nova Software (CUST-1074),1331.01,Credit Card,Authentication Failed,105,70,35,0.667,0,0,Failed,2026-08-10 00:56:30
+TXN-10908,CUST-1073,Apex Logistics (CUST-1073),63.24,Credit Card,Bank Decline,41,39,2,0.951,0,1,Pending,2026-08-17 00:46:46
+TXN-10909,CUST-1047,Liam O'Connor (CUST-1047),217.6,Digital Wallet,Network Timeout,35,33,2,0.943,1,0,Failed,2026-09-03 11:22:50
+TXN-10910,CUST-1095,Liam O'Connor (CUST-1095),140.94,Credit Card,Expired Card,104,91,13,0.875,3,1,Recovered,2026-08-18 16:55:24
+TXN-10911,CUST-1123,Starlight Media (CUST-1123),1412.16,UPI,Expired Card,65,42,23,0.646,0,1,Recovered,2026-08-12 10:38:23
+TXN-10912,CUST-1099,Starlight Media (CUST-1099),372.39,Digital Wallet,Network Timeout,74,57,17,0.77,0,1,Pending,2026-09-03 15:14:50
+TXN-10913,CUST-1099,Starlight Media (CUST-1099),1614.16,Digital Wallet,Expired Card,74,57,17,0.77,1,1,Pending,2026-08-19 15:25:01
+TXN-10914,CUST-1148,Horizon Tech (CUST-1148),119.84,Debit Card,Network Timeout,15,14,1,0.933,0,1,Recovered,2026-08-17 20:37:07
+TXN-10915,CUST-1122,Nova Software (CUST-1122),564.41,UPI,Expired Card,32,21,11,0.656,1,0,Unrecoverable,2026-09-05 03:24:06
+TXN-10916,CUST-1108,Aura Designs (CUST-1108),47.74,Credit Card,Expired Card,43,36,7,0.837,1,0,Unrecoverable,2026-09-04 22:25:45
+TXN-10917,CUST-1096,Yuki Tanaka (CUST-1096),197.7,Digital Wallet,Expired Card,33,28,5,0.848,0,1,Recovered,2026-08-09 08:34:01
+TXN-10918,CUST-1020,Sophia Taylor (CUST-1020),16.68,ACH Direct Debit,Expired Card,85,59,26,0.694,3,0,Failed,2026-08-21 02:13:28
+TXN-10919,CUST-1087,Rajesh Kumar (CUST-1087),74.94,Debit Card,Insufficient Funds,18,11,7,0.611,3,1,Recovered,2026-08-22 02:03:52
+TXN-10920,CUST-1003,Starlight Media (CUST-1003),340.63,Digital Wallet,Network Timeout,36,23,13,0.639,2,1,Pending,2026-08-13 19:21:30
+TXN-10921,CUST-1041,Marcus Chen (CUST-1041),51.7,Debit Card,Authentication Failed,89,76,13,0.854,2,1,Recovered,2026-08-12 11:57:04
+TXN-10922,CUST-1144,Yuki Tanaka (CUST-1144),184.74,UPI,Authentication Failed,77,47,30,0.61,1,1,Recovered,2026-08-26 09:16:40
+TXN-10923,CUST-1050,Nova Software (CUST-1050),196.98,Credit Card,Expired Card,71,53,18,0.746,1,1,Recovered,2026-08-08 22:43:17
+TXN-10924,CUST-1003,Starlight Media (CUST-1003),1648.21,Credit Card,Expired Card,36,23,13,0.639,1,1,Pending,2026-08-23 22:20:43
+TXN-10925,CUST-1145,Apex Logistics (CUST-1145),148.18,UPI,Insufficient Funds,48,29,19,0.604,1,0,Failed,2026-08-21 23:50:50
+TXN-10926,CUST-1081,Nexus Retail (CUST-1081),2450.32,Credit Card,Network Timeout,8,6,2,0.75,1,0,Unrecoverable,2026-08-10 00:24:50
+TXN-10927,CUST-1039,Rajesh Kumar (CUST-1039),18.2,UPI,Expired Card,28,21,7,0.75,0,0,Failed,2026-09-02 13:02:19
+TXN-10928,CUST-1024,Yuki Tanaka (CUST-1024),1009.73,Debit Card,Expired Card,45,41,4,0.911,2,0,Unrecoverable,2026-08-25 05:59:01
+TXN-10929,CUST-1134,Sarah Jenkins (CUST-1134),303.64,UPI,Network Timeout,15,9,6,0.6,2,0,Failed,2026-08-08 04:30:04
+TXN-10930,CUST-1100,Horizon Tech (CUST-1100),47.28,Digital Wallet,Authentication Failed,39,26,13,0.667,0,0,Failed,2026-08-29 23:26:25
+TXN-10931,CUST-1080,Quantum Labs (CUST-1080),88.86,ACH Direct Debit,Insufficient Funds,107,101,6,0.944,1,1,Recovered,2026-08-11 19:57:07
+TXN-10932,CUST-1072,Yuki Tanaka (CUST-1072),735.15,ACH Direct Debit,Network Timeout,100,93,7,0.93,1,0,Failed,2026-08-26 11:54:07
+TXN-10933,CUST-1036,Aura Designs (CUST-1036),587.26,UPI,Authentication Failed,95,80,15,0.842,1,0,Unrecoverable,2026-08-10 20:33:37
+TXN-10934,CUST-1094,Fatima Al-Mansoor (CUST-1094),84.18,ACH Direct Debit,Bank Decline,35,33,2,0.943,1,0,Unrecoverable,2026-08-08 06:25:05
+TXN-10935,CUST-1015,Rajesh Kumar (CUST-1015),115.04,Debit Card,Insufficient Funds,62,45,17,0.726,1,0,Unrecoverable,2026-08-18 23:10:25
+TXN-10936,CUST-1019,David Miller (CUST-1019),543.37,ACH Direct Debit,Authentication Failed,53,48,5,0.906,3,0,Failed,2026-08-10 06:15:27
+TXN-10937,CUST-1047,Liam O'Connor (CUST-1047),562.86,Debit Card,Authentication Failed,35,33,2,0.943,1,1,Recovered,2026-09-05 21:07:38
+TXN-10938,CUST-1125,Vanguard Systems (CUST-1125),483.58,Credit Card,Bank Decline,39,36,3,0.923,0,0,Failed,2026-08-26 04:38:51
+TXN-10939,CUST-1082,Zenith Financial (CUST-1082),91.71,UPI,Authentication Failed,70,42,28,0.6,1,1,Recovered,2026-09-02 00:39:59
+TXN-10940,CUST-1109,Alex Mercer (CUST-1109),51.43,UPI,Authentication Failed,35,28,7,0.8,0,1,Pending,2026-08-20 12:42:53
+TXN-10941,CUST-1108,Aura Designs (CUST-1108),85.85,Credit Card,Authentication Failed,43,36,7,0.837,1,0,Failed,2026-08-11 22:09:20
+TXN-10942,CUST-1090,Priya Sharma (CUST-1090),142.16,ACH Direct Debit,Network Timeout,24,15,9,0.625,3,0,Failed,2026-08-23 19:32:45
+TXN-10943,CUST-1051,Starlight Media (CUST-1051),450.58,UPI,Insufficient Funds,90,69,21,0.767,0,0,Failed,2026-08-21 23:17:33
+TXN-10944,CUST-1082,Zenith Financial (CUST-1082),1372.13,Credit Card,Authentication Failed,70,42,28,0.6,0,1,Pending,2026-09-05 01:42:04
+TXN-10945,CUST-1025,Apex Logistics (CUST-1025),956.55,Digital Wallet,Expired Card,87,81,6,0.931,2,1,Recovered,2026-08-13 06:43:16
+TXN-10946,CUST-1049,Apex Logistics (CUST-1049),409.58,Credit Card,Network Timeout,48,32,16,0.667,1,1,Recovered,2026-08-27 23:12:00
+TXN-10947,CUST-1117,Carlos Mendez (CUST-1117),308.28,Digital Wallet,Network Timeout,101,62,39,0.614,0,0,Failed,2026-08-19 20:07:40
+TXN-10948,CUST-1046,Fatima Al-Mansoor (CUST-1046),223.2,ACH Direct Debit,Network Timeout,59,41,18,0.695,3,0,Failed,2026-09-05 20:21:12
+TXN-10949,CUST-1027,Starlight Media (CUST-1027),27.1,ACH Direct Debit,Bank Decline,98,61,37,0.622,2,0,Failed,2026-08-22 02:06:43
+TXN-10950,CUST-1009,Nexus Retail (CUST-1009),533.27,Digital Wallet,Authentication Failed,79,53,26,0.671,0,1,Recovered,2026-09-04 12:05:20
+TXN-10951,CUST-1090,Priya Sharma (CUST-1090),1384.58,ACH Direct Debit,Insufficient Funds,24,15,9,0.625,1,0,Unrecoverable,2026-08-15 11:53:13
+TXN-10952,CUST-1068,Sophia Taylor (CUST-1068),2327.74,Debit Card,Insufficient Funds,76,67,9,0.882,1,1,Recovered,2026-08-11 14:07:19
+TXN-10953,CUST-1096,Yuki Tanaka (CUST-1096),383.53,UPI,Expired Card,33,28,5,0.848,2,0,Failed,2026-08-23 15:49:27
+TXN-10954,CUST-1101,Vanguard Systems (CUST-1101),2174.24,ACH Direct Debit,Expired Card,51,31,20,0.608,3,0,Unrecoverable,2026-08-12 04:46:05
+TXN-10955,CUST-1082,Zenith Financial (CUST-1082),84.83,Digital Wallet,Insufficient Funds,70,42,28,0.6,3,0,Failed,2026-09-01 06:40:26
+TXN-10956,CUST-1067,David Miller (CUST-1067),128.04,Credit Card,Insufficient Funds,22,18,4,0.818,1,1,Pending,2026-08-11 13:53:12
+TXN-10957,CUST-1140,Sophia Taylor (CUST-1140),1326.57,Debit Card,Authentication Failed,79,67,12,0.848,3,0,Failed,2026-08-12 14:00:41
+TXN-10958,CUST-1057,Nexus Retail (CUST-1057),390.94,UPI,Insufficient Funds,25,19,6,0.76,1,1,Recovered,2026-08-25 19:26:49
+TXN-10959,CUST-1149,Vanguard Systems (CUST-1149),132.04,Credit Card,Expired Card,18,16,2,0.889,1,1,Recovered,2026-08-09 18:29:28
+TXN-10960,CUST-1127,ECHO Commerce (CUST-1127),129.02,ACH Direct Debit,Insufficient Funds,118,109,9,0.924,1,1,Pending,2026-08-09 06:38:13
+TXN-10961,CUST-1108,Aura Designs (CUST-1108),65.66,Debit Card,Network Timeout,43,36,7,0.837,0,0,Unrecoverable,2026-08-24 00:08:36
+TXN-10962,CUST-1009,Nexus Retail (CUST-1009),1258.89,Digital Wallet,Bank Decline,79,53,26,0.671,0,1,Pending,2026-08-14 14:55:57
+TXN-10963,CUST-1032,Quantum Labs (CUST-1032),643.77,Debit Card,Expired Card,66,55,11,0.833,1,1,Recovered,2026-08-07 20:55:48
+TXN-10964,CUST-1036,Aura Designs (CUST-1036),477.48,UPI,Authentication Failed,95,80,15,0.842,0,0,Failed,2026-08-28 05:30:43
+TXN-10965,CUST-1076,Horizon Tech (CUST-1076),514.06,Debit Card,Network Timeout,46,42,4,0.913,0,1,Pending,2026-08-15 10:04:17
+TXN-10966,CUST-1101,Vanguard Systems (CUST-1101),28.89,Debit Card,Authentication Failed,51,31,20,0.608,1,0,Failed,2026-08-24 21:02:57
+TXN-10967,CUST-1070,Fatima Al-Mansoor (CUST-1070),430.31,Debit Card,Bank Decline,22,15,7,0.682,1,0,Unrecoverable,2026-08-31 13:37:04
+TXN-10968,CUST-1116,Sophia Taylor (CUST-1116),1571.58,ACH Direct Debit,Network Timeout,60,46,14,0.767,2,0,Unrecoverable,2026-09-04 11:57:50
+TXN-10969,CUST-1136,Elena Rostova (CUST-1136),163.47,ACH Direct Debit,Expired Card,41,39,2,0.951,1,1,Recovered,2026-08-26 16:41:56
+TXN-10970,CUST-1096,Yuki Tanaka (CUST-1096),618.3,Credit Card,Network Timeout,33,28,5,0.848,0,1,Recovered,2026-09-02 22:47:14
+TXN-10971,CUST-1144,Yuki Tanaka (CUST-1144),23.94,Credit Card,Bank Decline,77,47,30,0.61,1,0,Unrecoverable,2026-08-09 05:33:54
+TXN-10972,CUST-1108,Aura Designs (CUST-1108),107.09,Debit Card,Insufficient Funds,43,36,7,0.837,1,0,Failed,2026-08-19 14:58:57
+TXN-10973,CUST-1032,Quantum Labs (CUST-1032),76.13,Digital Wallet,Insufficient Funds,66,55,11,0.833,1,1,Pending,2026-09-05 15:01:09
+TXN-10974,CUST-1119,Liam O'Connor (CUST-1119),1365.34,Digital Wallet,Insufficient Funds,20,12,8,0.6,1,0,Failed,2026-08-21 02:00:54
+TXN-10975,CUST-1107,CloudScale Networks (CUST-1107),273.6,Credit Card,Bank Decline,17,13,4,0.765,1,0,Failed,2026-08-18 18:53:15
+TXN-10976,CUST-1117,Carlos Mendez (CUST-1117),438.49,Digital Wallet,Insufficient Funds,101,62,39,0.614,0,1,Recovered,2026-08-11 03:34:50
+TXN-10977,CUST-1083,CloudScale Networks (CUST-1083),131.29,Debit Card,Network Timeout,54,50,4,0.926,2,0,Unrecoverable,2026-09-02 00:39:45
+TXN-10978,CUST-1067,David Miller (CUST-1067),169.38,Credit Card,Network Timeout,22,18,4,0.818,1,1,Recovered,2026-08-15 02:01:42
+TXN-10979,CUST-1044,Sophia Taylor (CUST-1044),412.55,Debit Card,Bank Decline,15,10,5,0.667,1,0,Unrecoverable,2026-08-10 15:48:02
+TXN-10980,CUST-1136,Elena Rostova (CUST-1136),365.07,UPI,Authentication Failed,41,39,2,0.951,0,1,Recovered,2026-08-28 07:53:11
+TXN-10981,CUST-1091,David Miller (CUST-1091),1853.01,Debit Card,Insufficient Funds,68,65,3,0.956,0,0,Failed,2026-08-13 08:40:26
+TXN-10982,CUST-1056,Quantum Labs (CUST-1056),323.28,Debit Card,Bank Decline,59,43,16,0.729,2,0,Failed,2026-08-29 19:14:35
+TXN-10983,CUST-1080,Quantum Labs (CUST-1080),110.65,Debit Card,Expired Card,107,101,6,0.944,1,1,Recovered,2026-09-02 00:33:00
+TXN-10984,CUST-1132,Aura Designs (CUST-1132),330.09,Debit Card,Network Timeout,60,47,13,0.783,2,0,Failed,2026-08-20 19:34:43
+TXN-10985,CUST-1028,Horizon Tech (CUST-1028),115.58,UPI,Insufficient Funds,92,63,29,0.685,1,0,Failed,2026-08-17 13:06:02
+TXN-10986,CUST-1031,ECHO Commerce (CUST-1031),140.14,ACH Direct Debit,Bank Decline,20,14,6,0.7,1,0,Failed,2026-08-20 05:27:25
+TXN-10987,CUST-1095,Liam O'Connor (CUST-1095),441.88,Debit Card,Network Timeout,104,91,13,0.875,0,1,Pending,2026-08-15 06:21:29
+TXN-10988,CUST-1127,ECHO Commerce (CUST-1127),85.01,Credit Card,Expired Card,118,109,9,0.924,0,1,Recovered,2026-08-24 05:51:28
+TXN-10989,CUST-1062,Sarah Jenkins (CUST-1062),1030.28,ACH Direct Debit,Authentication Failed,16,11,5,0.688,1,1,Pending,2026-08-31 17:01:16
+TXN-10990,CUST-1069,Carlos Mendez (CUST-1069),986.79,UPI,Bank Decline,106,89,17,0.84,1,0,Failed,2026-08-12 12:56:54
+TXN-10991,CUST-1123,Starlight Media (CUST-1123),114.78,UPI,Insufficient Funds,65,42,23,0.646,0,1,Recovered,2026-08-11 05:48:43
+TXN-10992,CUST-1004,Horizon Tech (CUST-1004),342.57,Credit Card,Expired Card,21,18,3,0.857,3,0,Failed,2026-08-24 19:22:31
+TXN-10993,CUST-1122,Nova Software (CUST-1122),93.73,Credit Card,Insufficient Funds,32,21,11,0.656,2,0,Failed,2026-09-01 01:09:01
+TXN-10994,CUST-1135,Rajesh Kumar (CUST-1135),82.92,UPI,Network Timeout,8,7,1,0.875,1,1,Recovered,2026-09-05 16:20:34
+TXN-10995,CUST-1066,Priya Sharma (CUST-1066),264.09,UPI,Network Timeout,9,7,2,0.778,2,0,Unrecoverable,2026-08-21 12:25:38
+TXN-10996,CUST-1070,Fatima Al-Mansoor (CUST-1070),477.7,Debit Card,Expired Card,22,15,7,0.682,1,0,Failed,2026-08-24 07:33:08
+TXN-10997,CUST-1111,Rajesh Kumar (CUST-1111),484.96,Credit Card,Network Timeout,81,66,15,0.815,3,0,Failed,2026-09-05 14:34:14
+TXN-10998,CUST-1135,Rajesh Kumar (CUST-1135),559.65,ACH Direct Debit,Bank Decline,8,7,1,0.875,1,0,Failed,2026-08-16 06:24:16
+TXN-10999,CUST-1011,CloudScale Networks (CUST-1011),93.23,ACH Direct Debit,Authentication Failed,61,41,20,0.672,2,0,Failed,2026-08-15 15:20:45
+TXN-11000,CUST-1003,Starlight Media (CUST-1003),82.36,Digital Wallet,Network Timeout,36,23,13,0.639,2,1,Recovered,2026-08-16 02:18:59
