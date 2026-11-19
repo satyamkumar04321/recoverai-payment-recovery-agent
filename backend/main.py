@@ -11,19 +11,34 @@ from sqlalchemy.orm import Session
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from database import engine, Base, get_db, SessionLocal
-from models import Transaction
-from schemas import (
-    TransactionResponse,
-    DashboardStats,
-    PredictionInput,
-    PredictionOutput,
-    RecommendationInput,
-    RecommendationOutput,
-    ActionRequest
-)
-from ml_service import predict_recovery_probability
-from recommendation_service import get_recommendation
+try:
+    from database import engine, Base, get_db, SessionLocal
+    from models import Transaction
+    from schemas import (
+        TransactionResponse,
+        DashboardStats,
+        PredictionInput,
+        PredictionOutput,
+        RecommendationInput,
+        RecommendationOutput,
+        ActionRequest
+    )
+    from ml_service import predict_recovery_probability
+    from recommendation_service import get_recommendation
+except ImportError:
+    from backend.database import engine, Base, get_db, SessionLocal
+    from backend.models import Transaction
+    from backend.schemas import (
+        TransactionResponse,
+        DashboardStats,
+        PredictionInput,
+        PredictionOutput,
+        RecommendationInput,
+        RecommendationOutput,
+        ActionRequest
+    )
+    from backend.ml_service import predict_recovery_probability
+    from backend.recommendation_service import get_recommendation
 
 # Initialize Database tables
 Base.metadata.create_all(bind=engine)

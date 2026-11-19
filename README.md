@@ -99,7 +99,26 @@ Execute Best Recovery Action & Recapture Revenue
 
 ## 🏃 How to Run the Project
 
-### Option A: Running with Docker Compose (Recommended)
+### Clone Repository
+
+```bash
+git clone https://github.com/satyamkumar04321/recoverai-payment-recovery-agent.git
+cd recoverai-payment-recovery-agent
+```
+
+---
+
+### Option A: 1-Click Launch (Windows) ⚡
+
+Double click `start_project.bat` or run:
+```cmd
+.\start_project.bat
+```
+*(Automatically starts FastAPI Backend on `:8000` and Vite Frontend on `:3000`)*
+
+---
+
+### Option B: Running with Docker Compose (Recommended)
 
 ```bash
 docker-compose up --build
@@ -110,7 +129,7 @@ docker-compose up --build
 
 ---
 
-### Option B: Running Locally (Manual Setup)
+### Option C: Running Locally (Manual Setup)
 
 #### 1. Backend & ML Setup
 ```bash
@@ -126,7 +145,7 @@ python ml/generate_data.py
 python ml/train.py
 
 # Start FastAPI server
-uvicorn backend.main:app --reload --port 8000
+python -m uvicorn backend.main:app --reload --port 8000
 ```
 
 #### 2. Frontend Setup
@@ -135,6 +154,8 @@ cd frontend
 npm install
 npm run dev
 ```
+*(On Windows PowerShell, use `npm.cmd run dev` or run in CMD)*
+
 Open `http://localhost:3000` in your browser.
 
 ---

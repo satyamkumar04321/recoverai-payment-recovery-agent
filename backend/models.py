@@ -1,6 +1,9 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime
 from datetime import datetime
-from database import Base
+try:
+    from database import Base
+except ImportError:
+    from backend.database import Base
 
 class Transaction(Base):
     __tablename__ = "transactions"
